@@ -1,200 +1,159 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-import os
-import json
-import logging
-from typing import List, Dict, Any, Optional
-from datetime import datetime
-
 import pandas as pd
-
-# 配置日志
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger('DataProcessor')
+import os
+from datetime import datetime
+import openpyxl
+from openpyxl.styles import Font, Alignment, PatternFill
+from openpyxl.utils import get_column_letter
+import json
 
 
 class DataProcessor:
-    """数据处理类，用于清洗和保存爬取的数据"""
+    def __init__(self, column_mapping=None):
+        self.column_mapping = column_mapping or {}
+
+    def apply_column_mapping(self, df):
+        """应用自定义列头映射"""
+        if df is None or df.empty or not self.column_mapping:
+            return df
+        
+        # 创建新的列名映射
+        new_columns = {}
+        for old_col in df.columns:
+            new_col = self.column_mapping.get(old_col, old_col)
+            new_columns[old_col] = new_col
+        
+        # 重命名列
+        df = df.rename(columns=new_columns)
+        return df
     
-    def __init__(self, output_dir: str = "data"):
-        """初始化数据处理器
+    def clean_data(self, df):
+        """清洗数据"""
+        if df is None or df.empty:
+            return pd.DataFrame()
         
-        Args:
-            output_dir: 输出目录
-        """
-        self.output_dir = output_dir
-        os.makedirs(output_dir, exist_ok=True)
-    
-    def clean_data(self, data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """清洗数据
+        # 应用列头映射
+        df = self.apply_column_mapping(df)
         
-        Args:
-            data: 原始数据列表
+        # 移除空行
+        df = df.dropna(how='all')
+        
+        # 清理字符串数据
+        for col in df.columns:
+            if df[col].dtype == 'object':
+                df[col] = df[col].astype(str).str.strip()
+                # 将空字符串替换为NaN
+                df[col] = df[col].replace('', '-')
+                df[col] = df[col].replace('nan', '-')
+        
+        return df
+
+    def save_to_excel(self, df, filename=None):
+        """保存数据到Excel文件，保留超链接"""
+        if df is None or df.empty:
+            print("警告：数据为空，无法保存")
+            return None
             
-        Returns:
-            清洗后的数据列表
-        """
-        if not data:
-            return []
+        if not filename:
+            filename = f"givemeoc_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx"
+        elif not filename.endswith('.xlsx'):
+            filename = f"{filename}.xlsx"
         
-        cleaned_data = []
-        for item in data:
-            # 创建新的数据项，避免修改原始数据
-            cleaned_item = {}
-            
-            # 处理每个字段
-            for key, value in item.items():
-                # 去除空白字符
-                if isinstance(value, str):
-                    value = value.strip()
-                    # 如果是空字符串，设为None
-                    if value == "":
-                        value = None
-                
-                # 处理特殊字段
-                if key == "公司名称" and value:
-                    # 确保公司名称不包含特殊字符
-                    value = value.replace('\n', ' ').replace('\r', ' ').strip()
-                
-                # 处理日期字段
-                if ("日期" in key or "时间" in key) and value:
-                    try:
-                        # 尝试解析日期格式
-                        date_formats = ["%Y-%m-%d", "%Y/%m/%d", "%Y年%m月%d日"]
-                        for fmt in date_formats:
-                            try:
-                                parsed_date = datetime.strptime(value, fmt)
-                                value = parsed_date.strftime("%Y-%m-%d")
-                                break
-                            except ValueError:
-                                continue
-                    except Exception as e:
-                        logger.warning(f"日期解析失败: {value}, 错误: {e}")
-                
-                # 保存处理后的字段
-                cleaned_item[key] = value
-            
-            cleaned_data.append(cleaned_item)
-        
-        logger.info(f"数据清洗完成，处理 {len(data)} 条数据")
-        return cleaned_data
-    
-    def save_to_csv(self, data: List[Dict[str, Any]], filename: Optional[str] = None) -> str:
-        """将数据保存为CSV文件
-        
-        Args:
-            data: 数据列表
-            filename: 文件名，如果为None则使用当前时间戳
-            
-        Returns:
-            保存的文件路径
-        """
-        if not data:
-            logger.warning("没有数据可保存")
-            return ""
-        
-        # 如果没有指定文件名，使用当前时间戳
-        if filename is None:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"givemeoc_data_{timestamp}.csv"
-        
-        # 确保文件名有.csv后缀
-        if not filename.endswith(".csv"):
-            filename += ".csv"
-        
-        # 构建完整的文件路径
-        filepath = os.path.join(self.output_dir, filename)
+        # 确保输出目录存在
+        os.makedirs('data', exist_ok=True)
+        filepath = os.path.join('data', filename)
         
         try:
-            # 转换为DataFrame并保存
-            df = pd.DataFrame(data)
-            df.to_csv(filepath, index=False, encoding='utf-8-sig')  # 使用带BOM的UTF-8编码，兼容Excel
-            logger.info(f"数据已保存到CSV文件: {filepath}")
+            # 创建Excel工作簿
+            wb = openpyxl.Workbook()
+            ws = wb.active
+            ws.title = "招聘信息"
+            
+            # 写入表头
+            for col_idx, header in enumerate(df.columns, 1):
+                cell = ws.cell(row=1, column=col_idx, value=header)
+                cell.font = Font(bold=True, color="FFFFFF")
+                cell.fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")
+                cell.alignment = Alignment(horizontal="center", vertical="center")
+            
+            # 写入数据并设置超链接
+            for row_idx, row_data in enumerate(df.itertuples(index=False), 2):
+                for col_idx, value in enumerate(row_data, 1):
+                    cell = ws.cell(row=row_idx, column=col_idx)
+                    
+                    # 检查是否为URL
+                    if isinstance(value, str) and value.startswith('http'):
+                        cell.value = "点击查看"
+                        cell.hyperlink = value
+                        cell.font = Font(color="0000FF", underline="single")
+                        cell.alignment = Alignment(horizontal="center", vertical="center")
+                    else:
+                        cell.value = value if str(value) != 'nan' and str(value) != '-' else ''
+                        cell.alignment = Alignment(horizontal="left", vertical="center", wrap_text=True)
+            
+            # 调整列宽
+            for col_idx, column in enumerate(df.columns, 1):
+                max_length = 0
+                column_letter = get_column_letter(col_idx)
+                
+                # 检查表头长度
+                header_length = len(str(column))
+                max_length = max(max_length, header_length)
+                
+                # 检查数据长度
+                for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=col_idx, max_col=col_idx):
+                    for cell in row:
+                        if cell.value:
+                            cell_length = len(str(cell.value))
+                            max_length = max(max_length, cell_length)
+                
+                # 设置列宽，限制最大宽度
+                adjusted_width = min(max_length + 2, 50)
+                ws.column_dimensions[column_letter].width = adjusted_width
+            
+            # 设置行高
+            for row in ws.iter_rows():
+                ws.row_dimensions[row[0].row].height = 20
+            
+            wb.save(filepath)
+            print(f"数据已保存到Excel文件: {filepath}")
+            
+            # 显示超链接统计
+            url_columns = [col for col in df.columns if df[col].astype(str).str.startswith('http').any()]
+            if url_columns:
+                print(f"以下列包含超链接: {', '.join(url_columns)}")
+            
             return filepath
-        except Exception as e:
-            logger.error(f"保存CSV文件时出错: {e}")
-            return ""
-    
-    def save_to_excel(self, data: List[Dict[str, Any]], filename: Optional[str] = None) -> str:
-        """将数据保存为Excel文件
-        
-        Args:
-            data: 数据列表
-            filename: 文件名，如果为None则使用当前时间戳
             
-        Returns:
-            保存的文件路径
-        """
-        if not data:
-            logger.warning("没有数据可保存")
-            return ""
+        except Exception as e:
+            print(f"保存Excel文件时出错: {str(e)}")
+            return None
+
+    def save_to_json(self, df, filename=None):
+        """保存数据到JSON文件"""
+        if df is None or df.empty:
+            print("警告：数据为空，无法保存")
+            return None
+            
+        if not filename:
+            filename = f"givemeoc_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        elif not filename.endswith('.json'):
+            filename = f"{filename}.json"
         
-        # 如果没有指定文件名，使用当前时间戳
-        if filename is None:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"givemeoc_data_{timestamp}.xlsx"
-        
-        # 确保文件名有.xlsx后缀
-        if not filename.endswith(".xlsx"):
-            filename += ".xlsx"
-        
-        # 构建完整的文件路径
-        filepath = os.path.join(self.output_dir, filename)
+        # 确保输出目录存在
+        os.makedirs('data', exist_ok=True)
+        filepath = os.path.join('data', filename)
         
         try:
-            # 转换为DataFrame并保存
-            df = pd.DataFrame(data)
-            df.to_excel(filepath, index=False, engine='openpyxl')
-            logger.info(f"数据已保存到Excel文件: {filepath}")
-            return filepath
-        except Exception as e:
-            logger.error(f"保存Excel文件时出错: {e}")
-            return ""
-    
-    def save_to_json(self, data: List[Dict[str, Any]], filename: Optional[str] = None) -> str:
-        """将数据保存为JSON文件
-        
-        Args:
-            data: 数据列表
-            filename: 文件名，如果为None则使用当前时间戳
+            # 转换为字典格式
+            data = df.to_dict('records')
             
-        Returns:
-            保存的文件路径
-        """
-        if not data:
-            logger.warning("没有数据可保存")
-            return ""
-        
-        # 如果没有指定文件名，使用当前时间戳
-        if filename is None:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"givemeoc_data_{timestamp}.json"
-        
-        # 确保文件名有.json后缀
-        if not filename.endswith(".json"):
-            filename += ".json"
-        
-        # 构建完整的文件路径
-        filepath = os.path.join(self.output_dir, filename)
-        
-        try:
-            # 自定义JSON序列化，处理日期等特殊类型
-            class CustomJSONEncoder(json.JSONEncoder):
-                def default(self, obj):
-                    if isinstance(obj, datetime):
-                        return obj.strftime("%Y-%m-%d %H:%M:%S")
-                    return super().default(obj)
-            
-            # 保存为JSON文件
+            # 保存为JSON
             with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=2, cls=CustomJSONEncoder)
+                json.dump(data, f, ensure_ascii=False, indent=2)
             
-            logger.info(f"数据已保存到JSON文件: {filepath}")
+            print(f"数据已保存到JSON文件: {filepath}")
             return filepath
+            
         except Exception as e:
-            logger.error(f"保存JSON文件时出错: {e}")
-            return ""
+            print(f"保存JSON文件时出错: {str(e)}")
+            return None

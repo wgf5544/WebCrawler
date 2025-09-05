@@ -1,0 +1,33 @@
+# 爬虫默认配置（你可以修改为自己的本地环境与偏好）
+[crawler]
+# 输出目录
+output_dir = "data"
+# 输出格式：excel/csv/json
+format = "excel"
+# 是否无头模式（为保证复用登录态，首次建议设为 false 观察效果）
+headless = true
+# 是否一键完成流程（抓取+清洗+保存Excel）
+all_in_one = false
+# Chrome 用户数据目录（macOS 示例），用于复用登录态
+# Windows 示例："C:/Users/<你的用户名>/AppData/Local/Google/Chrome/User Data"
+# Linux   示例："~/.config/google-chrome"
+chrome_user_data_dir = ""
+# Chrome 配置目录名：通常为 "Default" 或 "Profile 1" 等
+chrome_profile_dir = ""
+# 如需直接下载腾讯文档，可在此设置 URL（留空则忽略）
+tencent_doc = ""
+# 自定义输出文件名（可留空，留空则使用时间戳）
+output = ""
+
+# 自定义列头映射（可选）
+# 格式："原列头" = "自定义列头"
+# 如果不设置，将使用网站原始列头
+[column_mapping]
+# 示例（取消注释以启用）：
+"工作地点(全国 会匹配所有搜索)" = "工作地点"
+"岗位(专业/岗位投递误区?(可点击))" = "招聘岗位"
+# "公司名称" = "企业名称"
+# "招聘类型" = "招聘方式"
+# "投递进度" = "申请状态"
+# "更新时间" = "发布时间"
+# "投递截止" = "截止日期"
