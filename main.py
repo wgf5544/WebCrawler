@@ -47,6 +47,8 @@ def parse_args():
                         help='启用无头浏览器模式 (默认: True)')
     parser.add_argument('--no-headless', action='store_true', default=False,
                         help='禁用无头浏览器模式，显示浏览器窗口')
+    parser.add_argument('--config', type=str, default='config.toml',
+                        help='配置文件路径 (默认: config.toml)')
     
     return parser.parse_args()
 
@@ -89,7 +91,7 @@ def main():
     args = parse_args()
 
     # 读取配置文件并应用
-    cfg = load_config('config.toml')
+    cfg = load_config(args.config)
     args = apply_config_to_args(args, cfg)
     
     try:

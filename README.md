@@ -161,6 +161,36 @@ python main.py -s 1 -e 3 --config config.toml
 python main.py -s 1 -e 5 --config /path/to/your/config.toml
 ```
 
+## 跨平台兼容性问题修复
+
+### 问题描述
+在Windows环境下提交代码后，macOS环境下运行时出现以下错误：
+```
+main.py: error: unrecognized arguments: --config config.toml
+```
+
+### 问题原因
+1. **参数定义缺失**：main.py中的argparse没有定义`--config`参数
+2. **硬编码配置路径**：代码中硬编码使用'config.toml'，无法通过命令行指定配置文件
+3. **跨平台开发不一致**：不同环境下的代码版本不同步
+
+### 解决方案
+1. **添加--config参数**：在argparse中添加了`--config`参数支持
+2. **动态配置加载**：修改配置文件加载逻辑，支持通过命令行指定配置文件路径
+3. **向后兼容**：保持默认配置文件为'config.toml'，确保现有用法不受影响
+
+### 修复后的用法
+```bash
+# 使用默认配置文件
+python main.py -s 1 -e 3
+
+# 指定配置文件
+python main.py -s 1 -e 3 --config config.toml
+
+# 使用自定义配置文件路径
+python main.py -s 1 -e 5 --config /path/to/your/config.toml
+```
+
 ## 最新修复功能
 
 ### ✅ 已修复和优化的功能

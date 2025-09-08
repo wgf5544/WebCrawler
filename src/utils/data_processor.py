@@ -82,8 +82,8 @@ class DataProcessor:
                     
                     # 检查是否为URL
                     if isinstance(value, str) and value.startswith('http'):
-                        cell.value = "点击查看"
-                        cell.hyperlink = value
+                        cell.value = value
+                        #cell.hyperlink = value
                         cell.font = Font(color="0000FF", underline="single")
                         cell.alignment = Alignment(horizontal="center", vertical="center")
                     else:
