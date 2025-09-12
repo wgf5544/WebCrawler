@@ -6,6 +6,7 @@ import sys
 import argparse
 import logging
 import time  # 添加time模块
+import selenium
 from datetime import datetime
 from typing import Optional, List, Dict, Any
 
