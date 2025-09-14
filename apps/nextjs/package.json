@@ -1,0 +1,31 @@
+{
+  "name": "@saasfly/nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "with-env": "dotenv -e ../../.env --"
+  },
+  "dependencies": {
+    "@saasfly/auth": "workspace:*",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@t3-oss/env-nextjs": "^0.13.8",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.3",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.9.2",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "dotenv-cli": "^7.0.0"
+  }
+}

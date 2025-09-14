@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "buildCommand": "bun run build --filter=@saasfly/nextjs",
+  "outputDirectory": "apps/nextjs/.next",
+  "installCommand": "bun install --frozen-lockfile",
+  "framework": "nextjs",
+  "functions": {
+    "apps/nextjs/app/**/*.{js,ts,jsx,tsx}": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "env": {
+    "SKIP_ENV_VALIDATION": "true"
+  },
+  "build": {
+    "env": {
+      "SKIP_ENV_VALIDATION": "true"
+    }
+  }
+}
