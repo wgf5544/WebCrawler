@@ -1,0 +1,42 @@
+{
+  "feishu": {
+    "app_id": "cli_xxxxxxxxxxxxxxxxx",
+    "app_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "base_url": "https://open.feishu.cn/open-apis",
+    "app_token": "UNYybgr35a9L8zs6XOOc58CYnKg",
+    "table_id": "tblO7DEGTOixsix1"
+  },
+  "data_source": {
+    "file_path": "data/your_data.xlsx",
+    "file_type": "excel",
+    "sheet_name": "Sheet1",
+    "encoding": "utf-8"
+  },
+  "field_mapping": {
+    "公司名称": "公司",
+    "公司类型": "公司类型",
+    "工作地点": "地点",
+    "所属行业(新增)": "所属行业",
+    "招聘类型": "招聘类型",
+    "招聘对象": "招聘对象",
+    "截止日期": "截止日期",
+    "是否笔试": "是否笔试",
+    "岗位": "岗位",
+    "备注": "备注",
+    "投递链接": "投递链接",
+    "公告链接": "公告链接",
+    "内推码": "内推码",
+    "更新时间": "更新时间"
+  },
+  "sync_options": {
+    "batch_size": 50,
+    "max_retries": 3,
+    "retry_delay": 1,
+    "skip_empty_rows": true
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "logs/feishu_sync.log",
+    "console_output": true
+  }
+}

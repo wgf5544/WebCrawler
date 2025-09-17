@@ -1,0 +1,99 @@
+{
+  "feishu": {
+    "app_id": "cli_a84049866cf9900d",
+    "app_secret": "FMgHyMOXVEcBLikld8Vcpf0pUjLcrhiZ"
+  },
+  "data_source": {
+    "type": "excel",
+    "file_path": "data/givemeoc_20250917_234858.xlsx",
+    "sheet_name": "招聘信息",
+    "encoding": "utf-8"
+  },
+  "tables": [
+    {
+      "name": "更新到26.7表格",
+      "base_id": "Z2LTb9SQTaOHIUsnpIFctsEZnVe", 
+      "table_id": "tbl6d2SNA5xjrydr",
+      "field_mapping": {
+        "公司名称": "公司",
+        "公司类型": "公司类型",
+        "工作地点": "地点",
+        "所属行业(新增)": "所属行业",
+        "招聘类型": "招聘类型",
+        "招聘对象": "招聘对象",
+        "更新时间": "更新时间",
+        "备注": "备注",
+        "招聘岗位": "岗位",
+        "投递截止": "截止日期",
+        "相关链接": "投递链接",
+        "招聘公告": "公告链接",
+        "内推码": "内推码"
+      }
+    },
+    {
+      "name": "更新到 26.1表格无投递和公告链接",
+      "base_id": "OG5DbI0MWa9VsasQxwwctnSenkg",
+      "table_id": "tblqkzlQMYTxrG5C",
+      "field_mapping": {
+        "公司名称": "公司",
+        "公司类型": "公司类型",
+        "工作地点": "地点",
+        "所属行业(新增)": "所属行业",
+        "招聘类型": "招聘类型",
+        "招聘对象": "招聘对象",
+        "更新时间": "更新时间",
+        "备注": "备注",
+        "招聘岗位": "岗位",
+        "投递截止": "截止日期",
+        "内推码": "内推码"
+      }
+    },
+    {
+      "name": "更新到 26.1 表格有链接的",
+      "base_id": "UKJcbbzeGa31X2sJKhzcmHyAnFg",
+      "table_id": "tblCgWUizkQp27Mo",
+      "field_mapping": {
+        "公司名称": "公司",
+        "公司类型": "公司类型",
+        "工作地点": "地点",
+        "所属行业(新增)": "所属行业",
+        "招聘类型": "招聘类型",
+        "招聘对象": "招聘对象",
+        "更新时间": "更新时间",
+        "备注": "备注",
+        "招聘岗位": "岗位",
+        "投递截止": "截止日期",
+        "相关链接": "投递链接",
+        "招聘公告": "公告链接",
+        "内推码": "内推码"
+      }
+    }
+  ],
+  "field_cleaning": {
+    "招聘对象": {
+      "2026年毕业生": "2026届",
+      "2025年毕业生": "2025届",
+      "2024年毕业生": "2024届",
+      "应届毕业生": "应届",
+      "往届毕业生": "往届",
+      "社会招聘": "社招",
+      "校园招聘": "校招",
+      "2025和2026年毕业生": "2025届,2026届"
+    }
+  },
+  "sync_options": {
+    "batch_size": 50,
+    "skip_empty_rows": true,
+    "skip_duplicate_check": false,
+    "duplicate_check_field": "公司名称",
+    "max_retries": 3,
+    "retry_delay": 2,
+    "sync_all_tables": true,
+    "continue_on_error": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/feishu_multi_sync.log",
+    "console": true
+  }
+}

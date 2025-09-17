@@ -1,0 +1,62 @@
+// 修复后的 next.config.mjs
+// 将此内容替换到 apps/nextjs/next.config.mjs
+
+/** @type {import('next').NextConfig} */
+
+// 修复导入路径 - 使用以下任一方式
+// 方式1: 不带 .mjs 扩展名
+import { env } from "@saasfly/auth/env";
+
+// 方式2: 使用相对路径（如果上面不工作）
+// import { env } from "../../packages/auth/env.mjs";
+
+// 方式3: 动态导入（最后的备选方案）
+// const { env } = await import("@saasfly/auth/env.mjs");
+
+const nextConfig = {
+  // 基本配置
+  reactStrictMode: true,
+  swcMinify: true,
+  
+  // 实验性功能
+  experimental: {
+    // 如果使用 app router
+    appDir: true,
+    // 服务器组件
+    serverComponentsExternalPackages: ["@saasfly/auth"],
+  },
+  
+  // 转译配置
+  transpilePackages: ["@saasfly/auth", "@saasfly/ui"],
+  
+  // 环境变量
+  env: {
+    AUTH_SECRET: env.AUTH_SECRET,
+  },
+  
+  // Webpack 配置修复
+  webpack: (config, { isServer }) => {
+    // 修复模块解析问题
+    config.resolve.extensionAlias = {
+      ".js": [".js", ".ts", ".tsx"],
+      ".mjs": [".mjs", ".mts"],
+    };
+    
+    // 确保正确处理 ESM 模块
+    if (isServer) {
+      config.externals = [...(config.externals || []), "@saasfly/auth/env"];
+    }
+    
+    return config;
+  },
+  
+  // 输出配置
+  output: "standalone",
+  
+  // 图片配置
+  images: {
+    domains: ["localhost"],
+  },
+};
+
+export default nextConfig;

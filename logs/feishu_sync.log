@@ -1,0 +1,248 @@
+2025-09-18 04:04:19,297 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:04:19,297 - FeishuDataSync - ERROR - ❌ 加载数据源失败: read_excel() got an unexpected keyword argument 'encoding'
+2025-09-18 04:04:19,297 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: read_excel() got an unexpected keyword argument 'encoding'
+2025-09-18 04:04:35,176 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:04:35,528 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_test.xlsx
+2025-09-18 04:04:35,528 - FeishuDataSync - ERROR - ❌ 加载数据源失败: 'dict' object has no attribute 'shape'
+2025-09-18 04:04:35,528 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 'dict' object has no attribute 'shape'
+2025-09-18 04:04:55,805 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:04:56,026 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_test.xlsx
+2025-09-18 04:04:56,026 - FeishuDataSync - INFO - 📊 数据形状: (300, 17)
+2025-09-18 04:04:56,027 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '公告', '内推码', '备注', '岗位(专业/岗位投递误区?(可点击))', '工作地点', '所属行业(新增)', '投递', '投递截止', '投递进度', '招聘公告', '招聘对象', '招聘类型', '更新时间', '相关链接', '详情']
+2025-09-18 04:04:56,029 - FeishuDataSync - INFO - ✅ 字段映射验证完成，有效映射: 7 个
+2025-09-18 04:04:56,055 - FeishuDataSync - INFO - ✅ 准备了 300 条记录用于同步
+2025-09-18 04:04:56,249 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:04:56,253 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 300 条记录，分 6 批处理
+2025-09-18 04:04:56,780 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.招聘类型.fieldValue.秋招.fieldName.招聘类型'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '2025091804045600E22B9297F14A2A4DAC', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804045600E22B9297F14A2A4DAC&code=1254063&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:04:59,221 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.地点.fieldValue.天津,无锡,惠州,东莞,重庆.fieldName.地点'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '202509180404598B3149B951D8DD1DBF09', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180404598B3149B951D8DD1DBF09&code=1254063&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:05:01,707 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.地点.fieldValue.天津,无锡,惠州,东莞,重庆.fieldName.地点'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '202509180405010CA1254F8FB21144A8E1', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180405010CA1254F8FB21144A8E1&code=1254063&method_id=6965347212289441794'}}，已达最大重试次数
+2025-09-18 04:05:01,707 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.地点.fieldValue.天津,无锡,惠州,东莞,重庆.fieldName.地点'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '202509180405010CA1254F8FB21144A8E1', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180405010CA1254F8FB21144A8E1&code=1254063&method_id=6965347212289441794'}}
+2025-09-18 04:05:01,707 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.地点.fieldValue.天津,无锡,惠州,东莞,重庆.fieldName.地点'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '202509180405010CA1254F8FB21144A8E1', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180405010CA1254F8FB21144A8E1&code=1254063&method_id=6965347212289441794'}}
+2025-09-18 04:05:24,696 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:05:25,029 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_test.xlsx
+2025-09-18 04:05:25,029 - FeishuDataSync - INFO - 📊 数据形状: (300, 17)
+2025-09-18 04:05:25,029 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '公告', '内推码', '备注', '岗位(专业/岗位投递误区?(可点击))', '工作地点', '所属行业(新增)', '投递', '投递截止', '投递进度', '招聘公告', '招聘对象', '招聘类型', '更新时间', '相关链接', '详情']
+2025-09-18 04:05:25,030 - FeishuDataSync - INFO - ✅ 字段映射验证完成，有效映射: 7 个
+2025-09-18 04:05:25,053 - FeishuDataSync - INFO - ✅ 准备了 300 条记录用于同步
+2025-09-18 04:05:25,176 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:05:25,180 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 300 条记录，分 6 批处理
+2025-09-18 04:05:25,729 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.招聘类型.fieldValue.秋招.fieldName.招聘类型'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '20250918040525B0C190F3F09B24F0586D', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918040525B0C190F3F09B24F0586D&code=1254063&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:05:28,246 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.招聘类型.fieldValue.秋招.fieldName.招聘类型'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '20250918040528E37A7C2A900307EE7944', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918040528E37A7C2A900307EE7944&code=1254063&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:05:30,749 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.招聘类型.fieldValue.秋招.fieldName.招聘类型'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '202509180405300358B09F12D9020626B8', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180405300358B09F12D9020626B8&code=1254063&method_id=6965347212289441794'}}，已达最大重试次数
+2025-09-18 04:05:30,751 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.招聘类型.fieldValue.秋招.fieldName.招聘类型'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '202509180405300358B09F12D9020626B8', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180405300358B09F12D9020626B8&code=1254063&method_id=6965347212289441794'}}
+2025-09-18 04:05:30,751 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 批次 1 插入失败: {'code': 1254063, 'msg': 'MultiSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.招聘类型.fieldValue.秋招.fieldName.招聘类型'. Correct format : the value of 'Multiple Options' must be a list of strings. Please check and modify accordingly.", 'log_id': '202509180405300358B09F12D9020626B8', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180405300358B09F12D9020626B8&code=1254063&method_id=6965347212289441794'}}
+2025-09-18 04:05:47,279 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:05:47,548 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_test.xlsx
+2025-09-18 04:05:47,548 - FeishuDataSync - INFO - 📊 数据形状: (300, 17)
+2025-09-18 04:05:47,548 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '公告', '内推码', '备注', '岗位(专业/岗位投递误区?(可点击))', '工作地点', '所属行业(新增)', '投递', '投递截止', '投递进度', '招聘公告', '招聘对象', '招聘类型', '更新时间', '相关链接', '详情']
+2025-09-18 04:05:47,548 - FeishuDataSync - INFO - ✅ 字段映射验证完成，有效映射: 7 个
+2025-09-18 04:05:47,571 - FeishuDataSync - INFO - ✅ 准备了 300 条记录用于同步
+2025-09-18 04:05:47,699 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:05:47,702 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 300 条记录，分 6 批处理
+2025-09-18 04:05:48,186 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254064, 'msg': 'DatetimeFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.更新时间.fieldValue.2025-09-04.fieldName.更新时间'. Correct format : the value of 'Date' must be a unix timestamp. Please check and modify accordingly.", 'log_id': '202509180405485D0D1C39A2E2C40903FF', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180405485D0D1C39A2E2C40903FF&code=1254064&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:05:50,640 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254045, 'msg': 'FieldNameNotFound', 'error': {'message': "Invalid request parameter: 'records[0].fields.类型'. Correct format : field_name not found. Please check and modify accordingly.", 'log_id': '20250918040550B7777C81866EB7D83788', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918040550B7777C81866EB7D83788&code=1254045&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:05:53,123 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败: {'code': 1254045, 'msg': 'FieldNameNotFound', 'error': {'message': "Invalid request parameter: 'records[0].fields.行业'. Correct format : field_name not found. Please check and modify accordingly.", 'log_id': '2025091804055293C1388E4D16F50B09CE', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804055293C1388E4D16F50B09CE&code=1254045&method_id=6965347212289441794'}}，已达最大重试次数
+2025-09-18 04:05:53,123 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败: {'code': 1254045, 'msg': 'FieldNameNotFound', 'error': {'message': "Invalid request parameter: 'records[0].fields.行业'. Correct format : field_name not found. Please check and modify accordingly.", 'log_id': '2025091804055293C1388E4D16F50B09CE', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804055293C1388E4D16F50B09CE&code=1254045&method_id=6965347212289441794'}}
+2025-09-18 04:05:53,124 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 批次 1 插入失败: {'code': 1254045, 'msg': 'FieldNameNotFound', 'error': {'message': "Invalid request parameter: 'records[0].fields.行业'. Correct format : field_name not found. Please check and modify accordingly.", 'log_id': '2025091804055293C1388E4D16F50B09CE', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804055293C1388E4D16F50B09CE&code=1254045&method_id=6965347212289441794'}}
+2025-09-18 04:06:35,113 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:06:35,324 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_test.xlsx
+2025-09-18 04:06:35,325 - FeishuDataSync - INFO - 📊 数据形状: (300, 17)
+2025-09-18 04:06:35,325 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '公告', '内推码', '备注', '岗位(专业/岗位投递误区?(可点击))', '工作地点', '所属行业(新增)', '投递', '投递截止', '投递进度', '招聘公告', '招聘对象', '招聘类型', '更新时间', '相关链接', '详情']
+2025-09-18 04:06:35,325 - FeishuDataSync - INFO - ✅ 字段映射验证完成，有效映射: 7 个
+2025-09-18 04:06:35,350 - FeishuDataSync - INFO - ✅ 准备了 300 条记录用于同步
+2025-09-18 04:06:35,470 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:06:35,473 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 300 条记录，分 6 批处理
+2025-09-18 04:06:36,004 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254064, 'msg': 'DatetimeFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.更新时间.fieldValue.2025-09-04.fieldName.更新时间'. Correct format : the value of 'Date' must be a unix timestamp. Please check and modify accordingly.", 'log_id': '20250918040635DAA359E0D9AE7C07FEEB', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918040635DAA359E0D9AE7C07FEEB&code=1254064&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:06:38,465 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254062, 'msg': 'SingleSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公司类型.fieldValue[民企].fieldName.公司类型'. Correct format : the value of 'Single Option' must be a string. Please check and modify accordingly.", 'log_id': '202509180406381C7819DB9900E012711B', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180406381C7819DB9900E012711B&code=1254062&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:06:40,935 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败: {'code': 1254062, 'msg': 'SingleSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公司类型.fieldValue[民企].fieldName.公司类型'. Correct format : the value of 'Single Option' must be a string. Please check and modify accordingly.", 'log_id': '202509180406401AA8F8A85A9760E118F0', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180406401AA8F8A85A9760E118F0&code=1254062&method_id=6965347212289441794'}}，已达最大重试次数
+2025-09-18 04:06:40,935 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败: {'code': 1254062, 'msg': 'SingleSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公司类型.fieldValue[民企].fieldName.公司类型'. Correct format : the value of 'Single Option' must be a string. Please check and modify accordingly.", 'log_id': '202509180406401AA8F8A85A9760E118F0', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180406401AA8F8A85A9760E118F0&code=1254062&method_id=6965347212289441794'}}
+2025-09-18 04:06:40,935 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 批次 1 插入失败: {'code': 1254062, 'msg': 'SingleSelectFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公司类型.fieldValue[民企].fieldName.公司类型'. Correct format : the value of 'Single Option' must be a string. Please check and modify accordingly.", 'log_id': '202509180406401AA8F8A85A9760E118F0', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180406401AA8F8A85A9760E118F0&code=1254062&method_id=6965347212289441794'}}
+2025-09-18 04:07:10,585 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:07:10,796 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_test.xlsx
+2025-09-18 04:07:10,796 - FeishuDataSync - INFO - 📊 数据形状: (300, 17)
+2025-09-18 04:07:10,796 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '公告', '内推码', '备注', '岗位(专业/岗位投递误区?(可点击))', '工作地点', '所属行业(新增)', '投递', '投递截止', '投递进度', '招聘公告', '招聘对象', '招聘类型', '更新时间', '相关链接', '详情']
+2025-09-18 04:07:10,796 - FeishuDataSync - INFO - ✅ 字段映射验证完成，有效映射: 7 个
+2025-09-18 04:07:10,820 - FeishuDataSync - INFO - ✅ 准备了 300 条记录用于同步
+2025-09-18 04:07:10,936 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:07:10,939 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 300 条记录，分 6 批处理
+2025-09-18 04:07:11,493 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254064, 'msg': 'DatetimeFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.更新时间.fieldValue.2025-09-04.fieldName.更新时间'. Correct format : the value of 'Date' must be a unix timestamp. Please check and modify accordingly.", 'log_id': '20250918040711378FC32127B82EDEE285', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918040711378FC32127B82EDEE285&code=1254064&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:07:13,942 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254064, 'msg': 'DatetimeFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.更新时间.fieldValue.2025-09-04.fieldName.更新时间'. Correct format : the value of 'Date' must be a unix timestamp. Please check and modify accordingly.", 'log_id': '202509180407130E14CFD28B0CCFECD114', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180407130E14CFD28B0CCFECD114&code=1254064&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:07:16,421 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败: {'code': 1254064, 'msg': 'DatetimeFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.更新时间.fieldValue.2025-09-04.fieldName.更新时间'. Correct format : the value of 'Date' must be a unix timestamp. Please check and modify accordingly.", 'log_id': '20250918040716A5CA4725B326120AFA34', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918040716A5CA4725B326120AFA34&code=1254064&method_id=6965347212289441794'}}，已达最大重试次数
+2025-09-18 04:07:16,421 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败: {'code': 1254064, 'msg': 'DatetimeFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.更新时间.fieldValue.2025-09-04.fieldName.更新时间'. Correct format : the value of 'Date' must be a unix timestamp. Please check and modify accordingly.", 'log_id': '20250918040716A5CA4725B326120AFA34', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918040716A5CA4725B326120AFA34&code=1254064&method_id=6965347212289441794'}}
+2025-09-18 04:07:16,422 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 批次 1 插入失败: {'code': 1254064, 'msg': 'DatetimeFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.更新时间.fieldValue.2025-09-04.fieldName.更新时间'. Correct format : the value of 'Date' must be a unix timestamp. Please check and modify accordingly.", 'log_id': '20250918040716A5CA4725B326120AFA34', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918040716A5CA4725B326120AFA34&code=1254064&method_id=6965347212289441794'}}
+2025-09-18 04:07:51,127 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:07:51,438 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_test.xlsx
+2025-09-18 04:07:51,439 - FeishuDataSync - INFO - 📊 数据形状: (300, 17)
+2025-09-18 04:07:51,439 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '公告', '内推码', '备注', '岗位(专业/岗位投递误区?(可点击))', '工作地点', '所属行业(新增)', '投递', '投递截止', '投递进度', '招聘公告', '招聘对象', '招聘类型', '更新时间', '相关链接', '详情']
+2025-09-18 04:07:51,441 - FeishuDataSync - INFO - ✅ 字段映射验证完成，有效映射: 7 个
+2025-09-18 04:07:51,473 - FeishuDataSync - INFO - ✅ 准备了 300 条记录用于同步
+2025-09-18 04:07:51,602 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:07:51,605 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 300 条记录，分 6 批处理
+2025-09-18 04:07:53,225 - FeishuDataSync - INFO - ✅ 批次 1/6 成功插入 50 条记录
+2025-09-18 04:07:55,234 - FeishuDataSync - INFO - ✅ 批次 2/6 成功插入 50 条记录
+2025-09-18 04:07:57,314 - FeishuDataSync - INFO - ✅ 批次 3/6 成功插入 50 条记录
+2025-09-18 04:07:59,223 - FeishuDataSync - INFO - ✅ 批次 4/6 成功插入 50 条记录
+2025-09-18 04:08:01,184 - FeishuDataSync - INFO - ✅ 批次 5/6 成功插入 50 条记录
+2025-09-18 04:08:03,206 - FeishuDataSync - INFO - ✅ 批次 6/6 成功插入 50 条记录
+2025-09-18 04:08:03,207 - FeishuDataSync - INFO - 🎉 批量插入完成！总计成功插入 300 条记录
+2025-09-18 04:08:03,208 - FeishuDataSync - INFO - 🎉 数据同步任务完成！
+2025-09-18 04:08:03,208 - FeishuDataSync - INFO - 📊 总记录数: 300
+2025-09-18 04:08:03,209 - FeishuDataSync - INFO - ✅ 成功插入: 300
+2025-09-18 04:08:03,209 - FeishuDataSync - INFO - ⏱️  耗时: 12.08 秒
+2025-09-18 04:12:13,549 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:12:13,550 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 数据文件未找到: data/givemeoc_test.xlsx
+2025-09-18 04:12:32,945 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:12:33,248 - FeishuDataSync - ERROR - ❌ 加载数据源失败: Worksheet named 'GiveMeOC数据' not found
+2025-09-18 04:12:33,248 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: Worksheet named 'GiveMeOC数据' not found
+2025-09-18 04:12:55,923 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:12:56,079 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_20250917_234858.xlsx
+2025-09-18 04:12:56,079 - FeishuDataSync - INFO - 📊 数据形状: (120, 14)
+2025-09-18 04:12:56,079 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '所属行业(新增)', '招聘类型', '工作地点', '招聘对象', '招聘岗位', '投递进度(如何使用?)', '更新时间', '投递截止', '相关链接', '招聘公告', '内推码', '备注']
+2025-09-18 04:12:56,080 - FeishuDataSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:12:56,220 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:12:56,222 - FeishuDataSync - WARNING - ⚠️ 字段验证失败，跳过验证: 'base_url'
+2025-09-18 04:12:56,223 - FeishuDataSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:12:56,223 - FeishuDataSync - INFO - 📝 准备记录数据...
+2025-09-18 04:12:56,242 - FeishuDataSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:12:56,242 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:12:57,693 - FeishuDataSync - INFO - ✅ 批次 1/3 成功插入 50 条记录
+2025-09-18 04:12:59,611 - FeishuDataSync - INFO - ✅ 批次 2/3 成功插入 50 条记录
+2025-09-18 04:13:01,556 - FeishuDataSync - INFO - ✅ 批次 3/3 成功插入 20 条记录
+2025-09-18 04:13:01,557 - FeishuDataSync - INFO - 🎉 批量插入完成！总计成功插入 120 条记录
+2025-09-18 04:13:01,560 - FeishuDataSync - INFO - 🎉 数据同步任务完成！
+2025-09-18 04:13:01,560 - FeishuDataSync - INFO - 📊 总记录数: 120
+2025-09-18 04:13:01,560 - FeishuDataSync - INFO - ✅ 成功插入: 120
+2025-09-18 04:13:01,560 - FeishuDataSync - INFO - ⏱️  耗时: 5.64 秒
+2025-09-18 04:24:20,020 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:24:20,268 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_20250917_234858.xlsx
+2025-09-18 04:24:20,268 - FeishuDataSync - INFO - 📊 数据形状: (120, 14)
+2025-09-18 04:24:20,268 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '所属行业(新增)', '招聘类型', '工作地点', '招聘对象', '招聘岗位', '投递进度(如何使用?)', '更新时间', '投递截止', '相关链接', '招聘公告', '内推码', '备注']
+2025-09-18 04:24:20,268 - FeishuDataSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:24:20,426 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:24:20,430 - FeishuDataSync - WARNING - ⚠️ 字段验证失败，跳过验证: 'base_url'
+2025-09-18 04:24:20,430 - FeishuDataSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:24:20,430 - FeishuDataSync - INFO - 📝 准备记录数据...
+2025-09-18 04:24:20,456 - FeishuDataSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:24:20,456 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:24:21,051 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公告链接.fieldValue.https://mp.weixin.qq.com/s/VlYPJjStOC8guYBrJsS1TQ.fieldName.公告链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '2025091804242087EE35D8082FECF3046E', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804242087EE35D8082FECF3046E&code=1254068&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:24:23,512 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '2025091804242382ABCB4B6D9B08EDE7D2', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804242382ABCB4B6D9B08EDE7D2&code=1254068&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:24:26,017 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '202509180424259BD22F61C6355119656D', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180424259BD22F61C6355119656D&code=1254068&method_id=6965347212289441794'}}，已达最大重试次数
+2025-09-18 04:24:26,017 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '202509180424259BD22F61C6355119656D', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180424259BD22F61C6355119656D&code=1254068&method_id=6965347212289441794'}}
+2025-09-18 04:24:26,017 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '202509180424259BD22F61C6355119656D', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180424259BD22F61C6355119656D&code=1254068&method_id=6965347212289441794'}}
+2025-09-18 04:28:00,646 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_20250917_234858.xlsx
+2025-09-18 04:28:00,647 - FeishuDataSync - INFO - 📊 数据形状: (120, 14)
+2025-09-18 04:28:00,647 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '所属行业(新增)', '招聘类型', '工作地点', '招聘对象', '招聘岗位', '投递进度(如何使用?)', '更新时间', '投递截止', '相关链接', '招聘公告', '内推码', '备注']
+2025-09-18 04:28:00,648 - FeishuDataSync - INFO - 📝 准备记录数据...
+2025-09-18 04:28:00,669 - FeishuDataSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:28:00,815 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:28:00,817 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 1 条记录，分 1 批处理
+2025-09-18 04:28:01,356 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公告链接.fieldValue.https://mp.weixin.qq.com/s/VlYPJjStOC8guYBrJsS1TQ.fieldName.公告链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '202509180428011DDE763F6C1E60363905', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180428011DDE763F6C1E60363905&code=1254068&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:28:03,787 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公告链接.fieldValue.https://mp.weixin.qq.com/s/VlYPJjStOC8guYBrJsS1TQ.fieldName.公告链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '20250918042803DFABFA116091FF0D94D0', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918042803DFABFA116091FF0D94D0&code=1254068&method_id=6965347212289441794'}}，2秒后重试...
+2025-09-18 04:28:06,252 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公告链接.fieldValue.https://mp.weixin.qq.com/s/VlYPJjStOC8guYBrJsS1TQ.fieldName.公告链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '202509180428063BB71514005E42E5A515', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180428063BB71514005E42E5A515&code=1254068&method_id=6965347212289441794'}}，已达最大重试次数
+2025-09-18 04:28:06,271 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败: {'code': 1254068, 'msg': 'URLFieldConvFail', 'error': {'message': "Invalid request parameter: 'records[0].fields.公告链接.fieldValue.https://mp.weixin.qq.com/s/VlYPJjStOC8guYBrJsS1TQ.fieldName.公告链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.", 'log_id': '202509180428063BB71514005E42E5A515', 'troubleshooter': '排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180428063BB71514005E42E5A515&code=1254068&method_id=6965347212289441794'}}
+2025-09-18 04:28:06,355 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_20250917_234858.xlsx
+2025-09-18 04:28:06,355 - FeishuDataSync - INFO - 📊 数据形状: (120, 14)
+2025-09-18 04:28:06,355 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '所属行业(新增)', '招聘类型', '工作地点', '招聘对象', '招聘岗位', '投递进度(如何使用?)', '更新时间', '投递截止', '相关链接', '招聘公告', '内推码', '备注']
+2025-09-18 04:29:58,699 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_20250917_234858.xlsx
+2025-09-18 04:29:58,699 - FeishuDataSync - INFO - 📊 数据形状: (120, 14)
+2025-09-18 04:29:58,699 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '所属行业(新增)', '招聘类型', '工作地点', '招聘对象', '招聘岗位', '投递进度(如何使用?)', '更新时间', '投递截止', '相关链接', '招聘公告', '内推码', '备注']
+2025-09-18 04:29:58,699 - FeishuDataSync - INFO - 📝 准备记录数据...
+2025-09-18 04:29:58,722 - FeishuDataSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:29:58,861 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:29:58,863 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 1 条记录，分 1 批处理
+2025-09-18 04:29:59,398 - FeishuDataSync - ERROR - ❌ API响应详情: {
+  "code": 1254068,
+  "msg": "URLFieldConvFail",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接.fieldValue.https://mp.weixin.qq.com/s/VlYPJjStOC8guYBrJsS1TQ.fieldName.公告链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.",
+    "log_id": "2025091804295988AB7FE143D7AC1FC445",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804295988AB7FE143D7AC1FC445&code=1254068&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:29:59,398 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail，2秒后重试...
+2025-09-18 04:30:01,848 - FeishuDataSync - ERROR - ❌ API响应详情: {
+  "code": 1254068,
+  "msg": "URLFieldConvFail",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.",
+    "log_id": "20250918043001BCCAE46BC52CFACB9E62",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918043001BCCAE46BC52CFACB9E62&code=1254068&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:30:01,848 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail，2秒后重试...
+2025-09-18 04:30:04,358 - FeishuDataSync - ERROR - ❌ API响应详情: {
+  "code": 1254068,
+  "msg": "URLFieldConvFail",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.",
+    "log_id": "20250918043004411D466A89F3960CA851",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918043004411D466A89F3960CA851&code=1254068&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:30:04,358 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail，已达最大重试次数
+2025-09-18 04:30:04,358 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail
+2025-09-18 04:30:04,417 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_20250917_234858.xlsx
+2025-09-18 04:30:04,417 - FeishuDataSync - INFO - 📊 数据形状: (120, 14)
+2025-09-18 04:30:04,417 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '所属行业(新增)', '招聘类型', '工作地点', '招聘对象', '招聘岗位', '投递进度(如何使用?)', '更新时间', '投递截止', '相关链接', '招聘公告', '内推码', '备注']
+2025-09-18 04:30:24,587 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:30:24,860 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_20250917_234858.xlsx
+2025-09-18 04:30:24,860 - FeishuDataSync - INFO - 📊 数据形状: (120, 14)
+2025-09-18 04:30:24,861 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '所属行业(新增)', '招聘类型', '工作地点', '招聘对象', '招聘岗位', '投递进度(如何使用?)', '更新时间', '投递截止', '相关链接', '招聘公告', '内推码', '备注']
+2025-09-18 04:30:24,861 - FeishuDataSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:30:25,009 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:30:25,012 - FeishuDataSync - WARNING - ⚠️ 字段验证失败，跳过验证: 'base_url'
+2025-09-18 04:30:25,012 - FeishuDataSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:30:25,012 - FeishuDataSync - INFO - 📝 准备记录数据...
+2025-09-18 04:30:25,036 - FeishuDataSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:30:25,036 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:30:25,550 - FeishuDataSync - ERROR - ❌ API响应详情: {
+  "code": 1254068,
+  "msg": "URLFieldConvFail",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.",
+    "log_id": "2025091804302590A96CB50794CECEBF81",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804302590A96CB50794CECEBF81&code=1254068&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:30:25,550 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail，2秒后重试...
+2025-09-18 04:30:28,038 - FeishuDataSync - ERROR - ❌ API响应详情: {
+  "code": 1254068,
+  "msg": "URLFieldConvFail",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.",
+    "log_id": "202509180430270FF3035A22FEDB8B05BC",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180430270FF3035A22FEDB8B05BC&code=1254068&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:30:28,038 - FeishuDataSync - WARNING - ⚠️  批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail，2秒后重试...
+2025-09-18 04:30:30,590 - FeishuDataSync - ERROR - ❌ API响应详情: {
+  "code": 1254068,
+  "msg": "URLFieldConvFail",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.投递链接.fieldValue.http://campus.51job.com/cimc.fieldName.投递链接'. Correct format : the value of 'Link' must be an object. Please check and modify accordingly.",
+    "log_id": "20250918043030F9EFC867AB09A5CE06BC",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918043030F9EFC867AB09A5CE06BC&code=1254068&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:30:30,590 - FeishuDataSync - ERROR - ❌ 批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail，已达最大重试次数
+2025-09-18 04:30:30,590 - FeishuDataSync - ERROR - ❌ 批次 1 请求失败: 批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail
+2025-09-18 04:30:30,591 - FeishuDataSync - ERROR - ❌ 数据同步任务失败: 批次 1 插入失败 - 错误码: 1254068, 错误信息: URLFieldConvFail
+2025-09-18 04:30:54,569 - FeishuDataSync - INFO - 🚀 开始数据同步任务
+2025-09-18 04:30:54,720 - FeishuDataSync - INFO - ✅ 成功加载数据源: data/givemeoc_20250917_234858.xlsx
+2025-09-18 04:30:54,720 - FeishuDataSync - INFO - 📊 数据形状: (120, 14)
+2025-09-18 04:30:54,720 - FeishuDataSync - INFO - 📋 列名: ['公司名称', '公司类型', '所属行业(新增)', '招聘类型', '工作地点', '招聘对象', '招聘岗位', '投递进度(如何使用?)', '更新时间', '投递截止', '相关链接', '招聘公告', '内推码', '备注']
+2025-09-18 04:30:54,720 - FeishuDataSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:30:54,835 - FeishuDataSync - INFO - ✅ 成功获取访问令牌
+2025-09-18 04:30:54,839 - FeishuDataSync - WARNING - ⚠️ 字段验证失败，跳过验证: 'base_url'
+2025-09-18 04:30:54,839 - FeishuDataSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:30:54,839 - FeishuDataSync - INFO - 📝 准备记录数据...
+2025-09-18 04:30:54,866 - FeishuDataSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:30:54,866 - FeishuDataSync - INFO - 🚀 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:30:57,067 - FeishuDataSync - INFO - ✅ 批次 1/3 成功插入 50 条记录
+2025-09-18 04:30:59,131 - FeishuDataSync - INFO - ✅ 批次 2/3 成功插入 50 条记录
+2025-09-18 04:31:01,246 - FeishuDataSync - INFO - ✅ 批次 3/3 成功插入 20 条记录
+2025-09-18 04:31:01,246 - FeishuDataSync - INFO - 🎉 批量插入完成！总计成功插入 120 条记录
+2025-09-18 04:31:01,248 - FeishuDataSync - INFO - 🎉 数据同步任务完成！
+2025-09-18 04:31:01,248 - FeishuDataSync - INFO - 📊 总记录数: 120
+2025-09-18 04:31:01,248 - FeishuDataSync - INFO - ✅ 成功插入: 120
+2025-09-18 04:31:01,248 - FeishuDataSync - INFO - ⏱️  耗时: 6.68 秒

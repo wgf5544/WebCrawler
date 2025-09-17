@@ -1,0 +1,557 @@
+2025-09-18 04:47:31,226 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-18 04:47:31,226 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-18 04:47:31,226 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-18 04:47:31,368 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-18 04:47:31,371 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-18 04:47:31,623 - FeishuMultiTableSync - INFO - ✅ 成功加载 120 行数据
+2025-09-18 04:47:31,623 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 原始表格
+2025-09-18 04:47:31,623 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:47:31,624 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:47:31,624 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 04:47:31,642 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:47:31,642 - FeishuMultiTableSync - INFO - 🚀 [原始表格] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:47:33,259 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 1/3 成功插入 50 条记录
+2025-09-18 04:47:35,371 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 2/3 成功插入 50 条记录
+2025-09-18 04:47:37,449 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 3/3 成功插入 20 条记录
+2025-09-18 04:47:37,450 - FeishuMultiTableSync - INFO - 🎉 [原始表格] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 04:47:37,452 - FeishuMultiTableSync - INFO - ✅ [原始表格] 同步完成，插入 120 条记录
+2025-09-18 04:47:37,453 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 招聘信息表格2
+2025-09-18 04:47:37,453 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:47:37,453 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '地点'
+2025-09-18 04:47:37,454 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '所属行业'
+2025-09-18 04:47:37,454 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '岗位'
+2025-09-18 04:47:37,454 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '是否笔试'
+2025-09-18 04:47:37,454 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '投递链接'
+2025-09-18 04:47:37,454 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '公告链接'
+2025-09-18 04:47:37,454 - FeishuMultiTableSync - WARNING - ⚠️ 以下字段在数据源中不存在: ['地点', '所属行业', '岗位', '是否笔试', '投递链接', '公告链接']
+2025-09-18 04:47:37,454 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:47:37,454 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 04:47:37,475 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:47:37,476 - FeishuMultiTableSync - INFO - 🚀 [招聘信息表格2] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:47:37,972 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "202509180447373D87EDC43C8568FEF64B",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180447373D87EDC43C8568FEF64B&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:37,972 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:47:40,421 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044740F948DF7CDABE8B103AE9",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044740F948DF7CDABE8B103AE9&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:40,422 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:47:42,877 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044742657A835F75B8D901A033",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044742657A835F75B8D901A033&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:42,877 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 04:47:42,877 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 跳过失败批次，继续处理下一批次
+2025-09-18 04:47:43,775 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "2025091804474306D9299D1536ABE5177C",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804474306D9299D1536ABE5177C&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:43,775 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:47:46,215 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044745EC88F6069649D6F729B9",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044745EC88F6069649D6F729B9&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:46,215 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:47:48,653 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044748920EBCCB57653EFFD4A6",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044748920EBCCB57653EFFD4A6&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:48,654 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 04:47:48,654 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 跳过失败批次，继续处理下一批次
+2025-09-18 04:47:49,589 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044749DD4E294A9DB439061473",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044749DD4E294A9DB439061473&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:49,589 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:47:52,030 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044751EB4335E5E7FA68E05E1C",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044751EB4335E5E7FA68E05E1C&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:52,030 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:47:54,469 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044754EF3506AEECB19B0F001A",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044754EF3506AEECB19B0F001A&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:54,470 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 04:47:54,470 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 跳过失败批次，继续处理下一批次
+2025-09-18 04:47:54,471 - FeishuMultiTableSync - INFO - 🎉 [招聘信息表格2] 批量插入完成！总计成功插入 0 条记录
+2025-09-18 04:47:54,474 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格2] 同步完成，插入 0 条记录
+2025-09-18 04:47:54,474 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 招聘信息表格3
+2025-09-18 04:47:54,474 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:47:54,475 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '地点'
+2025-09-18 04:47:54,475 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '所属行业'
+2025-09-18 04:47:54,475 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '岗位'
+2025-09-18 04:47:54,475 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '是否笔试'
+2025-09-18 04:47:54,475 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '投递链接'
+2025-09-18 04:47:54,475 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '公告链接'
+2025-09-18 04:47:54,475 - FeishuMultiTableSync - WARNING - ⚠️ 以下字段在数据源中不存在: ['地点', '所属行业', '岗位', '是否笔试', '投递链接', '公告链接']
+2025-09-18 04:47:54,475 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:47:54,476 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 04:47:54,499 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:47:54,499 - FeishuMultiTableSync - INFO - 🚀 [招聘信息表格3] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:47:55,093 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "202509180447540A8305FFEEFC57DC1711",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180447540A8305FFEEFC57DC1711&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:55,093 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:47:57,523 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044757D2A2B34A3187CFF19FDE",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044757D2A2B34A3187CFF19FDE&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:47:57,524 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:48:00,054 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044759E83B46B77C115C0EA97D",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044759E83B46B77C115C0EA97D&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:48:00,055 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 04:48:00,055 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 跳过失败批次，继续处理下一批次
+2025-09-18 04:48:00,922 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "2025091804480005A7B5833EEBB50AA01D",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804480005A7B5833EEBB50AA01D&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:48:00,922 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:48:03,472 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "2025091804480374AE7D0E675F26D72AEF",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804480374AE7D0E675F26D72AEF&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:48:03,472 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:48:05,918 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "202509180448055CB813181A174C1F6A00",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180448055CB813181A174C1F6A00&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:48:05,918 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 04:48:05,918 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 跳过失败批次，继续处理下一批次
+2025-09-18 04:48:07,005 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "2025091804480684ED7015341F22D77D99",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091804480684ED7015341F22D77D99&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:48:07,006 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:48:09,468 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918044809EC10D2A44049BF0F1AF4",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918044809EC10D2A44049BF0F1AF4&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:48:09,468 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 04:48:11,935 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公司名称'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "202509180448115D33A1DB63ABDCFB77C2",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180448115D33A1DB63ABDCFB77C2&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 04:48:11,935 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格3] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 04:48:11,935 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格3] 跳过失败批次，继续处理下一批次
+2025-09-18 04:48:11,936 - FeishuMultiTableSync - INFO - 🎉 [招聘信息表格3] 批量插入完成！总计成功插入 0 条记录
+2025-09-18 04:48:11,938 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 同步完成，插入 0 条记录
+2025-09-18 04:48:11,939 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-18 04:48:11,939 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-18 04:48:11,939 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 120
+2025-09-18 04:48:11,939 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 40.71 秒
+2025-09-18 04:49:51,335 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-18 04:49:51,335 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-18 04:49:51,335 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-18 04:49:51,463 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-18 04:49:51,466 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-18 04:49:51,726 - FeishuMultiTableSync - INFO - ✅ 成功加载 120 行数据
+2025-09-18 04:49:51,726 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 原始表格
+2025-09-18 04:49:51,726 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:49:51,728 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:49:51,728 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 04:49:51,747 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:49:51,747 - FeishuMultiTableSync - INFO - 🚀 [原始表格] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:49:53,295 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 1/3 成功插入 50 条记录
+2025-09-18 04:49:55,308 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 2/3 成功插入 50 条记录
+2025-09-18 04:49:57,323 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 3/3 成功插入 20 条记录
+2025-09-18 04:49:57,324 - FeishuMultiTableSync - INFO - 🎉 [原始表格] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 04:49:57,326 - FeishuMultiTableSync - INFO - ✅ [原始表格] 同步完成，插入 120 条记录
+2025-09-18 04:49:57,326 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 招聘信息表格2
+2025-09-18 04:49:57,326 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:49:57,326 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '地点'
+2025-09-18 04:49:57,326 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '所属行业'
+2025-09-18 04:49:57,326 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '岗位'
+2025-09-18 04:49:57,327 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '是否笔试'
+2025-09-18 04:49:57,327 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '投递链接'
+2025-09-18 04:49:57,327 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '公告链接'
+2025-09-18 04:49:57,327 - FeishuMultiTableSync - WARNING - ⚠️ 以下字段在数据源中不存在: ['地点', '所属行业', '岗位', '是否笔试', '投递链接', '公告链接']
+2025-09-18 04:49:57,327 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:49:57,327 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 04:49:57,346 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:49:57,346 - FeishuMultiTableSync - INFO - 🚀 [招聘信息表格2] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:49:58,865 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格2] 批次 1/3 成功插入 50 条记录
+2025-09-18 04:50:01,017 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格2] 批次 2/3 成功插入 50 条记录
+2025-09-18 04:50:03,017 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格2] 批次 3/3 成功插入 20 条记录
+2025-09-18 04:50:03,018 - FeishuMultiTableSync - INFO - 🎉 [招聘信息表格2] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 04:50:03,020 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格2] 同步完成，插入 120 条记录
+2025-09-18 04:50:03,020 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 招聘信息表格3
+2025-09-18 04:50:03,021 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 04:50:03,021 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '地点'
+2025-09-18 04:50:03,021 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '所属行业'
+2025-09-18 04:50:03,021 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '岗位'
+2025-09-18 04:50:03,021 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '是否笔试'
+2025-09-18 04:50:03,021 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '投递链接'
+2025-09-18 04:50:03,021 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '公告链接'
+2025-09-18 04:50:03,022 - FeishuMultiTableSync - WARNING - ⚠️ 以下字段在数据源中不存在: ['地点', '所属行业', '岗位', '是否笔试', '投递链接', '公告链接']
+2025-09-18 04:50:03,022 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 04:50:03,022 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 04:50:03,044 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 04:50:03,044 - FeishuMultiTableSync - INFO - 🚀 [招聘信息表格3] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 04:50:04,753 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 批次 1/3 成功插入 50 条记录
+2025-09-18 04:50:06,766 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 批次 2/3 成功插入 50 条记录
+2025-09-18 04:50:08,745 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 批次 3/3 成功插入 20 条记录
+2025-09-18 04:50:08,746 - FeishuMultiTableSync - INFO - 🎉 [招聘信息表格3] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 04:50:08,748 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 同步完成，插入 120 条记录
+2025-09-18 04:50:08,748 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-18 04:50:08,749 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-18 04:50:08,749 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 360
+2025-09-18 04:50:08,749 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 17.41 秒
+2025-09-18 05:05:54,999 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-18 05:05:55,000 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-18 05:05:55,000 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-18 05:05:55,163 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-18 05:05:55,165 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-18 05:05:55,528 - FeishuMultiTableSync - INFO - ✅ 成功加载 120 行数据
+2025-09-18 05:05:55,528 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 原始表格
+2025-09-18 05:05:55,528 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:05:55,529 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:05:55,529 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:05:55,547 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:05:55,547 - FeishuMultiTableSync - INFO - 🚀 [原始表格] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:05:57,095 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:05:59,068 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:06:01,068 - FeishuMultiTableSync - INFO - ✅ [原始表格] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:06:01,087 - FeishuMultiTableSync - INFO - 🎉 [原始表格] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:06:01,111 - FeishuMultiTableSync - INFO - ✅ [原始表格] 同步完成，插入 120 条记录
+2025-09-18 05:06:01,111 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 招聘信息表格2
+2025-09-18 05:06:01,111 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:06:01,111 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:06:01,111 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:06:01,144 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:06:01,145 - FeishuMultiTableSync - INFO - 🚀 [招聘信息表格2] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:06:01,691 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.投递链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "202509180506017A42F25937E1A751DDA0",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180506017A42F25937E1A751DDA0&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:01,691 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 05:06:04,167 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918050603E70700D6540957E79C96",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918050603E70700D6540957E79C96&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:04,167 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 05:06:06,684 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918050606AD6A9FF9596848230D2F",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918050606AD6A9FF9596848230D2F&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:06,684 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] 批次 1 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 05:06:06,684 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 跳过失败批次，继续处理下一批次
+2025-09-18 05:06:07,603 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "2025091805060757058D37B61571D9B077",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091805060757058D37B61571D9B077&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:07,603 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 05:06:10,093 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "2025091805060988873A60D278E9215F56",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091805060988873A60D278E9215F56&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:10,093 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 05:06:12,575 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "202509180506123DBE3C1C7542EC07D808",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202509180506123DBE3C1C7542EC07D808&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:12,575 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] 批次 2 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 05:06:12,575 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 跳过失败批次，继续处理下一批次
+2025-09-18 05:06:13,536 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918050613BB49072277A32BFA4FD3",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918050613BB49072277A32BFA4FD3&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:13,537 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 05:06:15,991 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "20250918050615DE5D42E034B69F05B654",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=20250918050615DE5D42E034B69F05B654&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:15,991 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，2秒后重试...
+2025-09-18 05:06:18,465 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] API响应详情: {
+  "code": 1254045,
+  "msg": "FieldNameNotFound",
+  "error": {
+    "message": "Invalid request parameter: 'records[0].fields.公告链接'. Correct format : field_name not found. Please check and modify accordingly.",
+    "log_id": "2025091805061867C4C70E0FFBB5DCC3A2",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=2025091805061867C4C70E0FFBB5DCC3A2&code=1254045&method_id=6965347212289441794"
+  }
+}
+2025-09-18 05:06:18,465 - FeishuMultiTableSync - ERROR - ❌ [招聘信息表格2] 批次 3 插入失败 - 错误码: 1254045, 错误信息: FieldNameNotFound，已达最大重试次数
+2025-09-18 05:06:18,465 - FeishuMultiTableSync - WARNING - ⚠️ [招聘信息表格2] 跳过失败批次，继续处理下一批次
+2025-09-18 05:06:18,466 - FeishuMultiTableSync - INFO - 🎉 [招聘信息表格2] 批量插入完成！总计成功插入 0 条记录
+2025-09-18 05:06:18,468 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格2] 同步完成，插入 0 条记录
+2025-09-18 05:06:18,468 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 招聘信息表格3
+2025-09-18 05:06:18,468 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:06:18,468 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:06:18,468 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:06:18,490 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:06:18,491 - FeishuMultiTableSync - INFO - 🚀 [招聘信息表格3] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:06:20,604 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:06:22,648 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:06:24,534 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:06:24,535 - FeishuMultiTableSync - INFO - 🎉 [招聘信息表格3] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:06:24,538 - FeishuMultiTableSync - INFO - ✅ [招聘信息表格3] 同步完成，插入 120 条记录
+2025-09-18 05:06:24,538 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-18 05:06:24,538 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-18 05:06:24,538 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 240
+2025-09-18 05:06:24,538 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 29.54 秒
+2025-09-18 05:12:43,368 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-18 05:12:43,394 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-18 05:12:43,394 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-18 05:12:43,554 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-18 05:12:43,576 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-18 05:12:43,905 - FeishuMultiTableSync - INFO - ✅ 成功加载 120 行数据
+2025-09-18 05:12:43,916 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-18 05:12:43,916 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:12:43,919 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:12:43,919 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:12:43,937 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:12:43,941 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:12:45,801 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:12:47,830 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:12:49,865 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:12:49,866 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:12:49,892 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 120 条记录
+2025-09-18 05:12:49,912 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-18 05:12:49,912 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:12:49,913 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:12:49,913 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:12:49,943 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:12:49,962 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:12:51,454 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:12:53,688 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:12:55,716 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:12:55,725 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:12:55,748 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 120 条记录
+2025-09-18 05:12:55,768 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-18 05:12:55,768 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:12:55,769 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:12:55,769 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:12:55,796 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:12:55,817 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:12:57,316 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:12:59,234 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:13:01,178 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:13:01,185 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:13:01,187 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 120 条记录
+2025-09-18 05:13:01,206 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-18 05:13:01,206 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-18 05:13:01,207 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 360
+2025-09-18 05:13:01,207 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 17.81 秒
+2025-09-18 05:27:48,495 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-18 05:27:54,655 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-18 05:27:54,655 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-18 05:27:54,655 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-18 05:27:54,910 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-18 05:27:54,912 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-18 05:27:55,090 - FeishuMultiTableSync - INFO - ✅ 成功加载 120 行数据
+2025-09-18 05:27:55,091 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-18 05:27:55,091 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:27:55,091 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:27:55,091 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:27:55,108 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:27:55,108 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:27:56,752 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:27:58,809 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:28:00,734 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:28:00,737 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:28:00,741 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 120 条记录
+2025-09-18 05:28:00,760 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-18 05:28:00,760 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:28:00,760 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:28:00,760 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:28:00,784 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:28:00,805 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:28:02,387 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:28:04,520 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:28:06,566 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:28:06,567 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:28:06,570 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 120 条记录
+2025-09-18 05:28:06,590 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-18 05:28:06,590 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:28:06,590 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:28:06,591 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:28:06,629 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:28:06,642 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:28:08,857 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:28:10,891 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:28:12,760 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:28:12,770 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:28:12,773 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 120 条记录
+2025-09-18 05:28:12,792 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-18 05:28:12,792 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-18 05:28:12,792 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 360
+2025-09-18 05:28:12,792 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 18.14 秒
+2025-09-18 05:35:32,295 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-18 05:35:32,296 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-18 05:35:32,296 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-18 05:35:32,437 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-18 05:35:32,440 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-18 05:35:32,703 - FeishuMultiTableSync - INFO - ✅ 成功加载 120 行数据
+2025-09-18 05:35:32,703 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-18 05:35:32,703 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:35:32,707 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:35:32,707 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:35:32,725 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:35:32,725 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:35:34,286 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:35:36,258 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:35:38,241 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:35:38,261 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:35:38,263 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 120 条记录
+2025-09-18 05:35:38,282 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-18 05:35:38,283 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:35:38,283 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:35:38,283 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:35:38,388 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:35:38,389 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:35:39,913 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:35:42,042 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:35:44,104 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:35:44,105 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:35:44,107 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 120 条记录
+2025-09-18 05:35:44,107 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-18 05:35:44,107 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-18 05:35:44,107 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-18 05:35:44,107 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-18 05:35:44,130 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 120 条有效记录
+2025-09-18 05:35:44,130 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 120 条记录，分 3 批处理
+2025-09-18 05:35:45,742 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-09-18 05:35:47,740 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-09-18 05:35:49,754 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 20 条记录
+2025-09-18 05:35:49,755 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 120 条记录
+2025-09-18 05:35:49,757 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 120 条记录
+2025-09-18 05:35:49,757 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-18 05:35:49,757 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-18 05:35:49,757 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 360
+2025-09-18 05:35:49,758 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 17.46 秒
