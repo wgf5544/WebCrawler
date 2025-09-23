@@ -184,7 +184,7 @@ class FeishuMultiTableSync:
                     value_str = self.clean_field_value(source_field, value_str)
                         
                     # 根据字段类型处理数据
-                    if target_field in ['地点', '所属行业', '招聘类型', '招聘对象', '岗位']:
+                    if target_field in ['地点', '所属行业', '招聘类型', '招聘对象']:
                         # 多选字段
                         if ',' in value_str:
                             # 对每个分割后的值也应用清洗规则
@@ -197,6 +197,19 @@ class FeishuMultiTableSync:
                             fields[target_field] = cleaned_items
                         else:
                             fields[target_field] = [value_str] if value_str else []
+                    elif target_field == '岗位':
+                        # 文本字段 - 处理多个值时用逗号分隔的字符串
+                        if ',' in value_str:
+                            # 对每个分割后的值也应用清洗规则，然后重新组合为字符串
+                            cleaned_items = []
+                            for item in value_str.split(','):
+                                item = item.strip()
+                                if item:
+                                    cleaned_item = self.clean_field_value(source_field, item)
+                                    cleaned_items.append(cleaned_item)
+                            fields[target_field] = ', '.join(cleaned_items)
+                        else:
+                            fields[target_field] = value_str
                     elif target_field in ['公司类型', '是否笔试']:
                         # 单选字段，直接使用字符串
                         fields[target_field] = value_str

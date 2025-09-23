@@ -1,11 +1,11 @@
 {
   "feishu": {
-    "app_id": "cli_a84049866cf9900d",
-    "app_secret": "FMgHyMOXVEcBLikld8Vcpf0pUjLcrhiZ"
+    "app_id": "cli_a84138a4a7a61013",
+    "app_secret": "t3R50xlga9Jgxi4tXkRjUct7HRXegczS"
   },
   "data_source": {
     "type": "excel",
-    "file_path": "data/givemeoc_20250917_234858.xlsx",
+    "file_path": "data/givemeoc_20250924_000941.xlsx",
     "sheet_name": "招聘信息",
     "encoding": "utf-8"
   },

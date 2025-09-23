@@ -215,6 +215,12 @@ MIT License
 
 ## 测试，飞书表格测试表 id
 ```
+"feishu": {
+    "app_id": "cli_a84049866cf9900d",
+    "app_secret": "FMgHyMOXVEcBLikld8Vcpf0pUjLcrhiZ"
+  },
+
+  
 "tables": [
     {
       "name": "更新到26.7表格",
