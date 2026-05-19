@@ -17,6 +17,17 @@ import requests
 from tqdm import tqdm
 
 
+def _load_env_config(config: Dict) -> Dict:
+    """从环境变量覆盖飞书凭证（.env 文件优先于 JSON 配置）"""
+    env_app_id = os.environ.get("FEISHU_APP_ID")
+    env_app_secret = os.environ.get("FEISHU_APP_SECRET")
+    if env_app_id:
+        config["feishu"]["app_id"] = env_app_id
+    if env_app_secret:
+        config["feishu"]["app_secret"] = env_app_secret
+    return config
+
+
 class FeishuMultiTableSync:
     """飞书多表格数据同步器"""
     
@@ -30,15 +41,15 @@ class FeishuMultiTableSync:
         self.logger.info("🚀 飞书多表格数据同步器初始化完成")
     
     def _load_config(self, config_path: str) -> Dict:
-        """加载配置文件"""
+        """加载配置文件，环境变量中的凭证优先于 JSON 配置"""
         try:
             with open(config_path, 'r', encoding='utf-8') as f:
                 config = json.load(f)
-            return config
         except FileNotFoundError:
             raise FileNotFoundError(f"配置文件不存在: {config_path}")
         except json.JSONDecodeError as e:
             raise ValueError(f"配置文件格式错误: {e}")
+        return _load_env_config(config)
     
     def _setup_logging(self) -> logging.Logger:
         """设置日志"""

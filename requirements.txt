@@ -1,13 +1,8 @@
-# Project dependencies
 requests==2.31.0
 beautifulsoup4==4.12.2
 selenium==4.15.2
 webdriver-manager==4.0.1
 tqdm==4.66.1
-argparse==1.4.0
 tomli>=2.0.1
-
-
-# Optional dependencies (for Excel support)
-# pandas
-# openpyxl
+pandas>=2.0.0
+openpyxl>=3.1.0

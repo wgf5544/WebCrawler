@@ -4,13 +4,14 @@
 飞书多维表格批量数据插入和删除测试
 """
 
+import os
 import requests
 import json
 import time
 
-# 配置信息
-APP_ID = "cli_a84049866cf9900d"
-APP_SECRET = "FMgHyMOXVEcBLikld8Vcpf0pUjLcrhiZ"
+# 配置信息（从环境变量读取，或在此处设置默认值）
+APP_ID = os.environ.get("FEISHU_APP_ID", "cli_xxxxxxxxxxxxxxxxx")
+APP_SECRET = os.environ.get("FEISHU_APP_SECRET", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 BASE_ID = "UNYybgr35a9L8zs6XOOc58CYnKg"
 TABLE_ID = "tblO7DEGTOixsix1"
 

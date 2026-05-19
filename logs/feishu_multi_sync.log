@@ -1429,3 +1429,1940 @@
 2025-09-24 00:16:17,870 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
 2025-09-24 00:16:17,870 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 453
 2025-09-24 00:16:17,870 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 23.83 秒
+2025-09-24 22:34:16,349 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-24 22:34:16,349 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-24 22:34:16,349 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-24 22:34:16,546 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-24 22:34:16,550 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-24 22:34:16,847 - FeishuMultiTableSync - INFO - ✅ 成功加载 114 行数据
+2025-09-24 22:34:16,847 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-24 22:34:16,847 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-24 22:34:16,848 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-24 22:34:16,849 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-24 22:34:16,865 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 114 条有效记录
+2025-09-24 22:34:16,866 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 114 条记录，分 3 批处理
+2025-09-24 22:34:19,121 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-09-24 22:34:20,977 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-09-24 22:34:22,699 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 14 条记录
+2025-09-24 22:34:22,727 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 114 条记录
+2025-09-24 22:34:22,729 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 114 条记录
+2025-09-24 22:34:22,729 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-24 22:34:22,729 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-24 22:34:22,730 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-24 22:34:22,730 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-24 22:34:22,779 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 114 条有效记录
+2025-09-24 22:34:22,792 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 114 条记录，分 3 批处理
+2025-09-24 22:34:25,089 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-09-24 22:34:27,113 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-09-24 22:34:29,062 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 14 条记录
+2025-09-24 22:34:29,063 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 114 条记录
+2025-09-24 22:34:29,065 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 114 条记录
+2025-09-24 22:34:29,066 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-24 22:34:29,066 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-24 22:34:29,066 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-24 22:34:29,066 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-24 22:34:29,086 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 114 条有效记录
+2025-09-24 22:34:29,086 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 114 条记录，分 3 批处理
+2025-09-24 22:34:31,401 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-09-24 22:34:33,404 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-09-24 22:34:35,330 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 14 条记录
+2025-09-24 22:34:35,330 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 114 条记录
+2025-09-24 22:34:35,333 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 114 条记录
+2025-09-24 22:34:35,333 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-24 22:34:35,333 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-24 22:34:35,333 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 342
+2025-09-24 22:34:35,333 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 18.98 秒
+2025-09-25 22:53:12,143 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-25 22:53:12,143 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-25 22:53:12,143 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-25 22:53:17,155 - FeishuMultiTableSync - ERROR - ❌ 多表格数据同步任务失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-09-25 22:53:42,381 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-25 22:53:42,382 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-25 22:53:42,382 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-25 22:54:00,520 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-25 22:54:00,523 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-25 22:54:00,813 - FeishuMultiTableSync - INFO - ✅ 成功加载 137 行数据
+2025-09-25 22:54:00,813 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-25 22:54:00,813 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-25 22:54:00,815 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-25 22:54:00,815 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-25 22:54:00,839 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 137 条有效记录
+2025-09-25 22:54:00,839 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 137 条记录，分 3 批处理
+2025-09-25 22:54:03,299 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-09-25 22:54:05,257 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-09-25 22:54:07,240 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 37 条记录
+2025-09-25 22:54:07,240 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 137 条记录
+2025-09-25 22:54:07,242 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 137 条记录
+2025-09-25 22:54:07,242 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-25 22:54:07,242 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-25 22:54:07,242 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-25 22:54:07,242 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-25 22:54:07,266 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 137 条有效记录
+2025-09-25 22:54:07,267 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 137 条记录，分 3 批处理
+2025-09-25 22:54:09,496 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-09-25 22:54:11,372 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-09-25 22:54:13,260 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 37 条记录
+2025-09-25 22:54:13,261 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 137 条记录
+2025-09-25 22:54:13,262 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 137 条记录
+2025-09-25 22:54:13,263 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-25 22:54:13,263 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-25 22:54:13,263 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-25 22:54:13,263 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-25 22:54:13,283 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 137 条有效记录
+2025-09-25 22:54:13,284 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 137 条记录，分 3 批处理
+2025-09-25 22:54:17,314 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-09-25 22:54:19,287 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-09-25 22:54:21,375 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 37 条记录
+2025-09-25 22:54:21,376 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 137 条记录
+2025-09-25 22:54:21,378 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 137 条记录
+2025-09-25 22:54:21,378 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-25 22:54:21,378 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-25 22:54:21,378 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 411
+2025-09-25 22:54:21,379 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 39.00 秒
+2025-09-27 00:34:28,638 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-27 00:34:28,638 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-27 00:34:28,638 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-27 00:34:29,569 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-27 00:34:29,574 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-27 00:34:29,840 - FeishuMultiTableSync - INFO - ✅ 成功加载 71 行数据
+2025-09-27 00:34:29,840 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-27 00:34:29,840 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-27 00:34:29,842 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-27 00:34:29,842 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-27 00:34:29,852 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 71 条有效记录
+2025-09-27 00:34:29,853 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 71 条记录，分 2 批处理
+2025-09-27 00:34:32,032 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-09-27 00:34:33,862 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 21 条记录
+2025-09-27 00:34:33,862 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 71 条记录
+2025-09-27 00:34:33,864 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 71 条记录
+2025-09-27 00:34:33,864 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-27 00:34:33,864 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-27 00:34:33,865 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-27 00:34:33,865 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-27 00:34:33,878 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 71 条有效记录
+2025-09-27 00:34:33,879 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 71 条记录，分 2 批处理
+2025-09-27 00:34:36,391 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-09-27 00:34:38,120 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 21 条记录
+2025-09-27 00:34:38,120 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 71 条记录
+2025-09-27 00:34:38,122 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 71 条记录
+2025-09-27 00:34:38,122 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-27 00:34:38,122 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-27 00:34:38,123 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-27 00:34:38,123 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-27 00:34:38,139 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 71 条有效记录
+2025-09-27 00:34:38,139 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 71 条记录，分 2 批处理
+2025-09-27 00:34:40,365 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-09-27 00:34:42,172 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 21 条记录
+2025-09-27 00:34:42,173 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 71 条记录
+2025-09-27 00:34:42,175 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 71 条记录
+2025-09-27 00:34:42,176 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-27 00:34:42,176 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-27 00:34:42,176 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 213
+2025-09-27 00:34:42,176 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 13.54 秒
+2025-09-27 21:27:58,239 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-27 21:27:58,240 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-27 21:27:58,240 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-27 21:27:59,880 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-27 21:27:59,882 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-27 21:28:00,169 - FeishuMultiTableSync - INFO - ✅ 成功加载 63 行数据
+2025-09-27 21:28:00,170 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-27 21:28:00,170 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-27 21:28:00,172 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-27 21:28:00,172 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-27 21:28:00,183 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 63 条有效记录
+2025-09-27 21:28:00,183 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 63 条记录，分 2 批处理
+2025-09-27 21:28:02,651 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-09-27 21:28:04,576 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 13 条记录
+2025-09-27 21:28:04,577 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 63 条记录
+2025-09-27 21:28:04,579 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 63 条记录
+2025-09-27 21:28:04,579 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-27 21:28:04,580 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-27 21:28:04,580 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-27 21:28:04,580 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-27 21:28:04,592 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 63 条有效记录
+2025-09-27 21:28:04,592 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 63 条记录，分 2 批处理
+2025-09-27 21:28:06,996 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-09-27 21:28:08,772 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 13 条记录
+2025-09-27 21:28:08,773 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 63 条记录
+2025-09-27 21:28:08,775 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 63 条记录
+2025-09-27 21:28:08,776 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-27 21:28:08,776 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-27 21:28:08,776 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-27 21:28:08,776 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-27 21:28:08,789 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 63 条有效记录
+2025-09-27 21:28:08,790 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 63 条记录，分 2 批处理
+2025-09-27 21:28:11,058 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-09-27 21:28:12,923 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 13 条记录
+2025-09-27 21:28:12,923 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 63 条记录
+2025-09-27 21:28:12,925 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 63 条记录
+2025-09-27 21:28:12,925 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-27 21:28:12,926 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-27 21:28:12,926 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 189
+2025-09-27 21:28:12,926 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 14.69 秒
+2025-09-28 23:35:28,866 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-28 23:35:28,867 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-28 23:35:28,867 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-28 23:35:30,357 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-28 23:35:30,360 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-28 23:35:30,635 - FeishuMultiTableSync - INFO - ✅ 成功加载 37 行数据
+2025-09-28 23:35:30,636 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-28 23:35:30,636 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-28 23:35:30,637 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-28 23:35:30,637 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-28 23:35:30,642 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 37 条有效记录
+2025-09-28 23:35:30,642 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 37 条记录，分 1 批处理
+2025-09-28 23:35:32,895 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 37 条记录
+2025-09-28 23:35:32,896 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 37 条记录
+2025-09-28 23:35:32,899 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 37 条记录
+2025-09-28 23:35:32,899 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-28 23:35:32,899 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-28 23:35:32,899 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-28 23:35:32,899 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-28 23:35:32,908 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 37 条有效记录
+2025-09-28 23:35:32,908 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 37 条记录，分 1 批处理
+2025-09-28 23:35:35,072 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 37 条记录
+2025-09-28 23:35:35,073 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 37 条记录
+2025-09-28 23:35:35,076 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 37 条记录
+2025-09-28 23:35:35,076 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-28 23:35:35,076 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-28 23:35:35,076 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-28 23:35:35,076 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-28 23:35:35,084 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 37 条有效记录
+2025-09-28 23:35:35,085 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 37 条记录，分 1 批处理
+2025-09-28 23:35:37,125 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 37 条记录
+2025-09-28 23:35:37,125 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 37 条记录
+2025-09-28 23:35:37,127 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 37 条记录
+2025-09-28 23:35:37,127 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-28 23:35:37,127 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-28 23:35:37,128 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 111
+2025-09-28 23:35:37,128 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 8.26 秒
+2025-09-29 22:32:24,838 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-09-29 22:32:24,838 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-09-29 22:32:24,838 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-09-29 22:32:26,247 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-09-29 22:32:26,250 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-09-29 22:32:26,488 - FeishuMultiTableSync - INFO - ✅ 成功加载 152 行数据
+2025-09-29 22:32:26,488 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-09-29 22:32:26,488 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-29 22:32:26,488 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-29 22:32:26,488 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-29 22:32:26,516 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 152 条有效记录
+2025-09-29 22:32:26,516 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 152 条记录，分 4 批处理
+2025-09-29 22:32:28,796 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/4 成功插入 50 条记录
+2025-09-29 22:32:30,603 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/4 成功插入 50 条记录
+2025-09-29 22:32:32,436 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/4 成功插入 50 条记录
+2025-09-29 22:32:34,134 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 4/4 成功插入 2 条记录
+2025-09-29 22:32:34,135 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 152 条记录
+2025-09-29 22:32:34,136 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 152 条记录
+2025-09-29 22:32:34,136 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-09-29 22:32:34,136 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-29 22:32:34,136 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-29 22:32:34,136 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-29 22:32:34,156 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 152 条有效记录
+2025-09-29 22:32:34,156 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 152 条记录，分 4 批处理
+2025-09-29 22:32:36,352 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/4 成功插入 50 条记录
+2025-09-29 22:32:38,188 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/4 成功插入 50 条记录
+2025-09-29 22:32:39,913 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/4 成功插入 50 条记录
+2025-09-29 22:32:41,658 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 4/4 成功插入 2 条记录
+2025-09-29 22:32:41,659 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 152 条记录
+2025-09-29 22:32:41,661 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 152 条记录
+2025-09-29 22:32:41,661 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-09-29 22:32:41,661 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-09-29 22:32:41,661 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-09-29 22:32:41,661 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-09-29 22:32:41,682 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 152 条有效记录
+2025-09-29 22:32:41,683 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 152 条记录，分 4 批处理
+2025-09-29 22:32:43,859 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/4 成功插入 50 条记录
+2025-09-29 22:32:45,801 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/4 成功插入 50 条记录
+2025-09-29 22:32:47,890 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/4 成功插入 50 条记录
+2025-09-29 22:32:49,639 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 4/4 成功插入 2 条记录
+2025-09-29 22:32:49,640 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 152 条记录
+2025-09-29 22:32:49,642 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 152 条记录
+2025-09-29 22:32:49,642 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-09-29 22:32:49,642 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-09-29 22:32:49,642 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 456
+2025-09-29 22:32:49,642 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 24.80 秒
+2025-10-01 01:07:02,125 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-01 01:07:02,125 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-01 01:07:02,125 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-01 01:07:02,320 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-01 01:07:02,325 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-01 01:07:02,603 - FeishuMultiTableSync - INFO - ✅ 成功加载 146 行数据
+2025-10-01 01:07:02,603 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-01 01:07:02,603 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-01 01:07:02,606 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-01 01:07:02,606 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-01 01:07:02,624 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 146 条有效记录
+2025-10-01 01:07:02,624 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 146 条记录，分 3 批处理
+2025-10-01 01:07:04,673 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-10-01 01:07:06,907 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-10-01 01:07:08,671 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 46 条记录
+2025-10-01 01:07:08,672 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 146 条记录
+2025-10-01 01:07:08,674 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 146 条记录
+2025-10-01 01:07:08,674 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-01 01:07:08,674 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-01 01:07:08,674 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-01 01:07:08,674 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-01 01:07:08,695 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 146 条有效记录
+2025-10-01 01:07:08,695 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 146 条记录，分 3 批处理
+2025-10-01 01:07:10,378 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-10-01 01:07:12,651 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-10-01 01:07:14,398 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 46 条记录
+2025-10-01 01:07:14,399 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 146 条记录
+2025-10-01 01:07:14,401 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 146 条记录
+2025-10-01 01:07:14,401 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-01 01:07:14,402 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-01 01:07:14,402 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-01 01:07:14,402 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-01 01:07:14,423 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 146 条有效记录
+2025-10-01 01:07:14,423 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 146 条记录，分 3 批处理
+2025-10-01 01:07:16,287 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-10-01 01:07:18,828 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-10-01 01:07:20,753 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 46 条记录
+2025-10-01 01:07:20,754 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 146 条记录
+2025-10-01 01:07:20,756 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 146 条记录
+2025-10-01 01:07:20,756 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-01 01:07:20,756 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-01 01:07:20,756 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 438
+2025-10-01 01:07:20,756 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 18.63 秒
+2025-10-01 22:29:08,810 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-01 22:29:08,810 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-01 22:29:08,810 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-01 22:29:09,023 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-01 22:29:09,025 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-01 22:29:09,269 - FeishuMultiTableSync - INFO - ✅ 成功加载 48 行数据
+2025-10-01 22:29:09,270 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-01 22:29:09,270 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-01 22:29:09,271 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-01 22:29:09,271 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-01 22:29:09,280 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 48 条有效记录
+2025-10-01 22:29:09,280 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 48 条记录，分 1 批处理
+2025-10-01 22:29:11,658 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 48 条记录
+2025-10-01 22:29:11,659 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 48 条记录
+2025-10-01 22:29:11,662 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 48 条记录
+2025-10-01 22:29:11,662 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-01 22:29:11,662 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-01 22:29:11,662 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-01 22:29:11,662 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-01 22:29:11,672 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 48 条有效记录
+2025-10-01 22:29:11,672 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 48 条记录，分 1 批处理
+2025-10-01 22:29:13,830 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 48 条记录
+2025-10-01 22:29:13,831 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 48 条记录
+2025-10-01 22:29:13,833 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 48 条记录
+2025-10-01 22:29:13,833 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-01 22:29:13,833 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-01 22:29:13,833 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-01 22:29:13,834 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-01 22:29:13,844 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 48 条有效记录
+2025-10-01 22:29:13,844 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 48 条记录，分 1 批处理
+2025-10-01 22:29:16,281 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 48 条记录
+2025-10-01 22:29:16,282 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 48 条记录
+2025-10-01 22:29:16,285 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 48 条记录
+2025-10-01 22:29:16,285 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-01 22:29:16,285 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-01 22:29:16,285 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 144
+2025-10-01 22:29:16,285 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 7.47 秒
+2025-10-02 23:51:20,655 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-02 23:51:20,656 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-02 23:51:20,656 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-02 23:51:21,830 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-02 23:51:21,833 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-02 23:51:22,195 - FeishuMultiTableSync - INFO - ✅ 成功加载 29 行数据
+2025-10-02 23:51:22,195 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-02 23:51:22,195 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-02 23:51:22,197 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-02 23:51:22,197 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-02 23:51:22,208 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 29 条有效记录
+2025-10-02 23:51:22,208 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 29 条记录，分 1 批处理
+2025-10-02 23:51:24,549 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 29 条记录
+2025-10-02 23:51:24,550 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 29 条记录
+2025-10-02 23:51:24,552 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 29 条记录
+2025-10-02 23:51:24,552 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-02 23:51:24,552 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-02 23:51:24,553 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-02 23:51:24,553 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-02 23:51:24,559 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 29 条有效记录
+2025-10-02 23:51:24,559 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 29 条记录，分 1 批处理
+2025-10-02 23:51:27,348 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 29 条记录
+2025-10-02 23:51:27,348 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 29 条记录
+2025-10-02 23:51:27,352 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 29 条记录
+2025-10-02 23:51:27,352 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-02 23:51:27,352 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-02 23:51:27,352 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-02 23:51:27,352 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-02 23:51:27,360 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 29 条有效记录
+2025-10-02 23:51:27,360 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 29 条记录，分 1 批处理
+2025-10-02 23:51:30,597 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 29 条记录
+2025-10-02 23:51:30,598 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 29 条记录
+2025-10-02 23:51:30,601 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 29 条记录
+2025-10-02 23:51:30,601 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-02 23:51:30,601 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-02 23:51:30,601 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 87
+2025-10-02 23:51:30,601 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 9.95 秒
+2025-10-04 00:06:14,836 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-04 00:06:14,845 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-04 00:06:14,845 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-04 00:06:15,767 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-04 00:06:15,784 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-04 00:06:16,073 - FeishuMultiTableSync - INFO - ✅ 成功加载 23 行数据
+2025-10-04 00:06:16,085 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-04 00:06:16,085 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-04 00:06:16,086 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-04 00:06:16,106 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-04 00:06:16,113 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 23 条有效记录
+2025-10-04 00:06:16,144 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 23 条记录，分 1 批处理
+2025-10-04 00:06:18,566 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 23 条记录
+2025-10-04 00:06:18,571 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 23 条记录
+2025-10-04 00:06:18,573 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 23 条记录
+2025-10-04 00:06:18,594 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-04 00:06:18,594 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-04 00:06:18,595 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-04 00:06:18,595 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-04 00:06:18,598 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 23 条有效记录
+2025-10-04 00:06:18,616 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 23 条记录，分 1 批处理
+2025-10-04 00:06:20,861 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 23 条记录
+2025-10-04 00:06:20,872 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 23 条记录
+2025-10-04 00:06:20,874 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 23 条记录
+2025-10-04 00:06:20,894 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-04 00:06:20,917 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-04 00:06:20,917 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-04 00:06:20,917 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-04 00:06:20,923 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 23 条有效记录
+2025-10-04 00:06:20,941 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 23 条记录，分 1 批处理
+2025-10-04 00:06:24,055 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 23 条记录
+2025-10-04 00:06:24,061 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 23 条记录
+2025-10-04 00:06:24,064 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 23 条记录
+2025-10-04 00:06:24,084 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-04 00:06:24,084 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-04 00:06:24,084 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 69
+2025-10-04 00:06:24,084 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 9.24 秒
+2025-10-04 23:57:40,274 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-04 23:57:40,274 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-04 23:57:40,274 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-04 23:57:41,312 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-04 23:57:41,313 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-04 23:57:41,564 - FeishuMultiTableSync - INFO - ✅ 成功加载 9 行数据
+2025-10-04 23:57:41,564 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-04 23:57:41,564 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-04 23:57:41,565 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-04 23:57:41,565 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-04 23:57:41,567 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 9 条有效记录
+2025-10-04 23:57:41,567 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 9 条记录，分 1 批处理
+2025-10-04 23:57:44,890 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 9 条记录
+2025-10-04 23:57:44,891 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 9 条记录
+2025-10-04 23:57:44,893 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 9 条记录
+2025-10-04 23:57:44,893 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-04 23:57:44,893 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-04 23:57:44,894 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-04 23:57:44,894 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-04 23:57:44,896 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 9 条有效记录
+2025-10-04 23:57:44,896 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 9 条记录，分 1 批处理
+2025-10-04 23:57:47,154 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 9 条记录
+2025-10-04 23:57:47,154 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 9 条记录
+2025-10-04 23:57:47,156 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 9 条记录
+2025-10-04 23:57:47,156 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-04 23:57:47,156 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-04 23:57:47,156 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-04 23:57:47,157 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-04 23:57:47,158 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 9 条有效记录
+2025-10-04 23:57:47,158 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 9 条记录，分 1 批处理
+2025-10-04 23:57:50,596 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 9 条记录
+2025-10-04 23:57:50,596 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 9 条记录
+2025-10-04 23:57:50,598 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 9 条记录
+2025-10-04 23:57:50,598 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-04 23:57:50,598 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-04 23:57:50,598 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 27
+2025-10-04 23:57:50,598 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 10.32 秒
+2025-10-06 00:13:37,156 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-06 00:13:37,157 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-06 00:13:37,157 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-06 00:13:38,083 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-06 00:13:38,085 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-06 00:13:38,328 - FeishuMultiTableSync - INFO - ✅ 成功加载 6 行数据
+2025-10-06 00:13:38,328 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-06 00:13:38,328 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-06 00:13:38,329 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-06 00:13:38,329 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-06 00:13:38,331 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 6 条有效记录
+2025-10-06 00:13:38,331 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 6 条记录，分 1 批处理
+2025-10-06 00:13:43,410 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 6 条记录
+2025-10-06 00:13:43,411 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 6 条记录
+2025-10-06 00:13:43,414 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 6 条记录
+2025-10-06 00:13:43,414 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-06 00:13:43,414 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-06 00:13:43,414 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-06 00:13:43,414 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-06 00:13:43,416 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 6 条有效记录
+2025-10-06 00:13:43,416 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 6 条记录，分 1 批处理
+2025-10-06 00:13:46,851 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 6 条记录
+2025-10-06 00:13:46,852 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 6 条记录
+2025-10-06 00:13:46,854 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 6 条记录
+2025-10-06 00:13:46,854 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-06 00:13:46,854 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-06 00:13:46,854 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-06 00:13:46,854 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-06 00:13:46,855 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 6 条有效记录
+2025-10-06 00:13:46,855 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 6 条记录，分 1 批处理
+2025-10-06 00:13:48,796 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 6 条记录
+2025-10-06 00:13:48,796 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 6 条记录
+2025-10-06 00:13:48,798 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 6 条记录
+2025-10-06 00:13:48,798 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-06 00:13:48,798 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-06 00:13:48,798 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 18
+2025-10-06 00:13:48,798 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 11.64 秒
+2025-10-07 00:49:16,451 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-07 00:49:16,451 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-07 00:49:16,452 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-07 00:49:17,651 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-07 00:49:17,653 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-07 00:49:17,890 - FeishuMultiTableSync - INFO - ✅ 成功加载 28 行数据
+2025-10-07 00:49:17,890 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-07 00:49:17,890 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-07 00:49:17,892 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-07 00:49:17,892 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-07 00:49:17,896 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 28 条有效记录
+2025-10-07 00:49:17,896 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 28 条记录，分 1 批处理
+2025-10-07 00:49:21,131 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 28 条记录
+2025-10-07 00:49:21,131 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 28 条记录
+2025-10-07 00:49:21,133 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 28 条记录
+2025-10-07 00:49:21,133 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-07 00:49:21,133 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-07 00:49:21,133 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-07 00:49:21,133 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-07 00:49:21,140 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 28 条有效记录
+2025-10-07 00:49:21,140 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 28 条记录，分 1 批处理
+2025-10-07 00:49:24,440 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 28 条记录
+2025-10-07 00:49:24,440 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 28 条记录
+2025-10-07 00:49:24,442 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 28 条记录
+2025-10-07 00:49:24,442 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-07 00:49:24,442 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-07 00:49:24,442 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-07 00:49:24,442 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-07 00:49:24,446 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 28 条有效记录
+2025-10-07 00:49:24,446 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 28 条记录，分 1 批处理
+2025-10-07 00:49:26,513 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 28 条记录
+2025-10-07 00:49:26,513 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 28 条记录
+2025-10-07 00:49:26,515 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 28 条记录
+2025-10-07 00:49:26,515 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-07 00:49:26,515 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-07 00:49:26,515 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 84
+2025-10-07 00:49:26,515 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 10.06 秒
+2025-10-08 20:18:11,636 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-08 20:18:11,637 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-08 20:18:11,637 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-08 20:18:16,647 - FeishuMultiTableSync - ERROR - ❌ 多表格数据同步任务失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-10-08 22:11:10,314 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-08 22:11:10,315 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-08 22:11:10,315 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-08 22:11:11,219 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-08 22:11:11,220 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-08 22:11:11,437 - FeishuMultiTableSync - INFO - ✅ 成功加载 10 行数据
+2025-10-08 22:11:11,437 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-08 22:11:11,437 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-08 22:11:11,438 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-08 22:11:11,438 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-08 22:11:11,440 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 10 条有效记录
+2025-10-08 22:11:11,440 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 10 条记录，分 1 批处理
+2025-10-08 22:11:16,468 - FeishuMultiTableSync - WARNING - ⚠️ [更新到26.7表格] 批次 1 请求异常: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))，2秒后重试...
+2025-10-08 22:11:21,656 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 10 条记录
+2025-10-08 22:11:21,657 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 10 条记录
+2025-10-08 22:11:21,657 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 10 条记录
+2025-10-08 22:11:21,657 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-08 22:11:21,657 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-08 22:11:21,657 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-08 22:11:21,657 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-08 22:11:21,659 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 10 条有效记录
+2025-10-08 22:11:21,659 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 10 条记录，分 1 批处理
+2025-10-08 22:11:24,049 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 10 条记录
+2025-10-08 22:11:24,049 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 10 条记录
+2025-10-08 22:11:24,051 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 10 条记录
+2025-10-08 22:11:24,051 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-08 22:11:24,051 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-08 22:11:24,052 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-08 22:11:24,052 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-08 22:11:24,053 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 10 条有效记录
+2025-10-08 22:11:24,053 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 10 条记录，分 1 批处理
+2025-10-08 22:11:26,546 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 10 条记录
+2025-10-08 22:11:26,546 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 10 条记录
+2025-10-08 22:11:26,548 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 10 条记录
+2025-10-08 22:11:26,548 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-08 22:11:26,548 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-08 22:11:26,548 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 30
+2025-10-08 22:11:26,548 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 16.23 秒
+2025-10-08 22:18:26,385 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-08 22:18:26,385 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-08 22:18:26,385 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-08 22:18:27,456 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-08 22:18:27,457 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-08 22:18:27,599 - FeishuMultiTableSync - INFO - ✅ 成功加载 4 行数据
+2025-10-08 22:18:27,599 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-08 22:18:27,599 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-08 22:18:27,599 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-08 22:18:27,600 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-08 22:18:27,601 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 4 条有效记录
+2025-10-08 22:18:27,601 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 4 条记录，分 1 批处理
+2025-10-08 22:18:29,981 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 4 条记录
+2025-10-08 22:18:29,982 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 4 条记录
+2025-10-08 22:18:29,983 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 4 条记录
+2025-10-08 22:18:29,983 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-08 22:18:29,983 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-08 22:18:29,984 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-08 22:18:29,984 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-08 22:18:29,985 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 4 条有效记录
+2025-10-08 22:18:29,985 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 4 条记录，分 1 批处理
+2025-10-08 22:18:31,447 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 4 条记录
+2025-10-08 22:18:31,448 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 4 条记录
+2025-10-08 22:18:31,450 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 4 条记录
+2025-10-08 22:18:31,450 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-08 22:18:31,450 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-08 22:18:31,450 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-08 22:18:31,450 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-08 22:18:31,451 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 4 条有效记录
+2025-10-08 22:18:31,451 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 4 条记录，分 1 批处理
+2025-10-08 22:18:33,568 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 4 条记录
+2025-10-08 22:18:33,569 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 4 条记录
+2025-10-08 22:18:33,571 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 4 条记录
+2025-10-08 22:18:33,571 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-08 22:18:33,571 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-08 22:18:33,571 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 12
+2025-10-08 22:18:33,571 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 7.19 秒
+2025-10-09 21:34:08,403 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-09 21:34:08,404 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-09 21:34:08,405 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-09 21:34:10,085 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-09 21:34:10,087 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-09 21:34:10,327 - FeishuMultiTableSync - INFO - ✅ 成功加载 80 行数据
+2025-10-09 21:34:10,327 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-09 21:34:10,327 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-09 21:34:10,328 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-09 21:34:10,328 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-09 21:34:10,339 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 80 条有效记录
+2025-10-09 21:34:10,339 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 80 条记录，分 2 批处理
+2025-10-09 21:34:12,786 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-10-09 21:34:14,635 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 30 条记录
+2025-10-09 21:34:14,636 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 80 条记录
+2025-10-09 21:34:14,638 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 80 条记录
+2025-10-09 21:34:14,638 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-09 21:34:14,638 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-09 21:34:14,638 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-09 21:34:14,638 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-09 21:34:14,651 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 80 条有效记录
+2025-10-09 21:34:14,652 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 80 条记录，分 2 批处理
+2025-10-09 21:34:17,112 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-10-09 21:34:19,365 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 30 条记录
+2025-10-09 21:34:19,376 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 80 条记录
+2025-10-09 21:34:19,399 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 80 条记录
+2025-10-09 21:34:19,419 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-09 21:34:19,419 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-09 21:34:19,419 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-09 21:34:19,419 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-09 21:34:19,437 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 80 条有效记录
+2025-10-09 21:34:19,441 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 80 条记录，分 2 批处理
+2025-10-09 21:34:21,632 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-10-09 21:34:23,467 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 30 条记录
+2025-10-09 21:34:23,467 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 80 条记录
+2025-10-09 21:34:23,470 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 80 条记录
+2025-10-09 21:34:23,470 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-09 21:34:23,471 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-09 21:34:23,471 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 240
+2025-10-09 21:34:23,471 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 15.07 秒
+2025-10-10 23:46:51,700 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-10 23:46:51,700 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-10 23:46:51,700 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-10 23:46:52,443 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-10 23:46:52,447 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-10 23:46:52,718 - FeishuMultiTableSync - INFO - ✅ 成功加载 103 行数据
+2025-10-10 23:46:52,719 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-10 23:46:52,719 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-10 23:46:52,720 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-10 23:46:52,720 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-10 23:46:52,736 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 103 条有效记录
+2025-10-10 23:46:52,736 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 103 条记录，分 3 批处理
+2025-10-10 23:46:56,129 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-10-10 23:46:57,980 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-10-10 23:47:00,636 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 3 条记录
+2025-10-10 23:47:00,636 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 103 条记录
+2025-10-10 23:47:00,638 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 103 条记录
+2025-10-10 23:47:00,638 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-10 23:47:00,638 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-10 23:47:00,638 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-10 23:47:00,638 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-10 23:47:00,653 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 103 条有效记录
+2025-10-10 23:47:00,654 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 103 条记录，分 3 批处理
+2025-10-10 23:47:03,129 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-10-10 23:47:08,640 - FeishuMultiTableSync - WARNING - ⚠️ [更新到 26.1表格无投递和公告链接] 批次 2 请求异常: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))，2秒后重试...
+2025-10-10 23:47:12,163 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-10-10 23:47:13,897 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 3 条记录
+2025-10-10 23:47:13,898 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 103 条记录
+2025-10-10 23:47:13,898 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 103 条记录
+2025-10-10 23:47:13,898 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-10 23:47:13,898 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-10 23:47:13,898 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-10 23:47:13,898 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-10 23:47:13,917 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 103 条有效记录
+2025-10-10 23:47:13,917 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 103 条记录，分 3 批处理
+2025-10-10 23:47:16,204 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-10-10 23:47:18,755 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-10-10 23:47:20,408 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 3 条记录
+2025-10-10 23:47:20,409 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 103 条记录
+2025-10-10 23:47:20,411 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 103 条记录
+2025-10-10 23:47:20,412 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-10 23:47:20,412 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-10 23:47:20,412 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 309
+2025-10-10 23:47:20,412 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 28.71 秒
+2025-10-13 00:01:51,551 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-13 00:01:51,551 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-13 00:01:51,551 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-13 00:01:51,743 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-13 00:01:51,761 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-13 00:01:52,227 - FeishuMultiTableSync - INFO - ✅ 成功加载 105 行数据
+2025-10-13 00:01:52,233 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-13 00:01:52,234 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-13 00:01:52,237 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-13 00:01:52,255 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-13 00:01:52,272 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 105 条有效记录
+2025-10-13 00:01:52,278 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 105 条记录，分 3 批处理
+2025-10-13 00:01:54,778 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-10-13 00:01:56,705 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-10-13 00:01:58,420 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 5 条记录
+2025-10-13 00:01:58,425 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 105 条记录
+2025-10-13 00:01:58,449 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 105 条记录
+2025-10-13 00:01:58,449 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-13 00:01:58,449 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-13 00:01:58,471 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-13 00:01:58,472 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-13 00:01:58,497 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 105 条有效记录
+2025-10-13 00:01:58,522 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 105 条记录，分 3 批处理
+2025-10-13 00:02:01,022 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-10-13 00:02:03,016 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-10-13 00:02:04,883 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 5 条记录
+2025-10-13 00:02:04,884 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 105 条记录
+2025-10-13 00:02:04,887 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 105 条记录
+2025-10-13 00:02:04,908 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-13 00:02:04,909 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-13 00:02:04,909 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-13 00:02:04,909 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-13 00:02:04,930 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 105 条有效记录
+2025-10-13 00:02:04,931 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 105 条记录，分 3 批处理
+2025-10-13 00:02:07,178 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-10-13 00:02:09,361 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-10-13 00:02:11,021 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 5 条记录
+2025-10-13 00:02:11,022 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 105 条记录
+2025-10-13 00:02:11,025 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 105 条记录
+2025-10-13 00:02:11,025 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-13 00:02:11,025 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-13 00:02:11,025 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 315
+2025-10-13 00:02:11,025 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 19.47 秒
+2025-10-13 23:23:32,817 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-13 23:23:32,820 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-13 23:23:32,821 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-13 23:23:33,102 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-13 23:23:33,106 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-13 23:23:33,395 - FeishuMultiTableSync - INFO - ✅ 成功加载 82 行数据
+2025-10-13 23:23:33,395 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-13 23:23:33,395 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-13 23:23:33,397 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-13 23:23:33,397 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-13 23:23:33,411 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 82 条有效记录
+2025-10-13 23:23:33,411 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 82 条记录，分 2 批处理
+2025-10-13 23:23:36,155 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-10-13 23:23:38,289 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 32 条记录
+2025-10-13 23:23:38,290 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 82 条记录
+2025-10-13 23:23:38,292 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 82 条记录
+2025-10-13 23:23:38,292 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-13 23:23:38,292 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-13 23:23:38,293 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-13 23:23:38,293 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-13 23:23:38,308 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 82 条有效记录
+2025-10-13 23:23:38,308 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 82 条记录，分 2 批处理
+2025-10-13 23:23:40,646 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-10-13 23:23:42,497 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 32 条记录
+2025-10-13 23:23:42,498 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 82 条记录
+2025-10-13 23:23:42,500 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 82 条记录
+2025-10-13 23:23:42,500 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-13 23:23:42,501 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-13 23:23:42,501 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-13 23:23:42,501 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-13 23:23:42,516 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 82 条有效记录
+2025-10-13 23:23:42,516 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 82 条记录，分 2 批处理
+2025-10-13 23:23:44,715 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-10-13 23:23:46,652 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 32 条记录
+2025-10-13 23:23:46,653 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 82 条记录
+2025-10-13 23:23:46,656 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 82 条记录
+2025-10-13 23:23:46,656 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-13 23:23:46,656 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-13 23:23:46,656 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 246
+2025-10-13 23:23:46,656 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 13.84 秒
+2025-10-14 23:31:30,509 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-14 23:31:30,510 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-14 23:31:30,510 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-14 23:31:30,684 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-14 23:31:30,687 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-14 23:31:30,896 - FeishuMultiTableSync - INFO - ✅ 成功加载 77 行数据
+2025-10-14 23:31:30,896 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-14 23:31:30,896 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-14 23:31:30,896 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-14 23:31:30,896 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-14 23:31:30,907 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 77 条有效记录
+2025-10-14 23:31:30,907 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 77 条记录，分 2 批处理
+2025-10-14 23:31:33,512 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-10-14 23:31:35,575 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 27 条记录
+2025-10-14 23:31:35,577 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 77 条记录
+2025-10-14 23:31:35,579 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 77 条记录
+2025-10-14 23:31:35,579 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-14 23:31:35,579 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-14 23:31:35,579 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-14 23:31:35,579 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-14 23:31:35,596 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 77 条有效记录
+2025-10-14 23:31:35,596 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 77 条记录，分 2 批处理
+2025-10-14 23:31:38,213 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-10-14 23:31:40,348 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 27 条记录
+2025-10-14 23:31:40,349 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 77 条记录
+2025-10-14 23:31:40,351 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 77 条记录
+2025-10-14 23:31:40,351 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-14 23:31:40,351 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-14 23:31:40,352 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-14 23:31:40,352 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-14 23:31:40,367 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 77 条有效记录
+2025-10-14 23:31:40,368 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 77 条记录，分 2 批处理
+2025-10-14 23:31:42,474 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-10-14 23:31:44,334 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 27 条记录
+2025-10-14 23:31:44,334 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 77 条记录
+2025-10-14 23:31:44,337 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 77 条记录
+2025-10-14 23:31:44,337 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-14 23:31:44,337 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-14 23:31:44,337 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 231
+2025-10-14 23:31:44,337 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 13.83 秒
+2025-10-15 22:53:19,135 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-15 22:53:19,136 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-15 22:53:19,136 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-15 22:53:19,353 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-15 22:53:19,357 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-15 22:53:19,638 - FeishuMultiTableSync - INFO - ✅ 成功加载 69 行数据
+2025-10-15 22:53:19,638 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-15 22:53:19,638 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-15 22:53:19,640 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-15 22:53:19,640 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-15 22:53:19,649 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 69 条有效记录
+2025-10-15 22:53:19,649 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 69 条记录，分 2 批处理
+2025-10-15 22:53:22,414 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-10-15 22:53:24,738 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 19 条记录
+2025-10-15 22:53:24,745 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 69 条记录
+2025-10-15 22:53:24,746 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 69 条记录
+2025-10-15 22:53:24,747 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-15 22:53:24,747 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-15 22:53:24,747 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-15 22:53:24,747 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-15 22:53:24,760 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 69 条有效记录
+2025-10-15 22:53:24,760 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 69 条记录，分 2 批处理
+2025-10-15 22:53:27,326 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-10-15 22:53:29,446 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 19 条记录
+2025-10-15 22:53:29,447 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 69 条记录
+2025-10-15 22:53:29,449 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 69 条记录
+2025-10-15 22:53:29,449 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-15 22:53:29,449 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-15 22:53:29,449 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-15 22:53:29,449 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-15 22:53:29,464 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 69 条有效记录
+2025-10-15 22:53:29,464 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 69 条记录，分 2 批处理
+2025-10-15 22:53:31,865 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-10-15 22:53:33,936 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 19 条记录
+2025-10-15 22:53:33,937 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 69 条记录
+2025-10-15 22:53:33,938 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 69 条记录
+2025-10-15 22:53:33,939 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-15 22:53:33,939 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-15 22:53:33,939 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 207
+2025-10-15 22:53:33,939 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 14.80 秒
+2025-10-16 22:23:13,197 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-16 22:23:13,197 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-16 22:23:13,197 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-16 22:23:13,379 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-16 22:23:13,382 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-16 22:23:13,641 - FeishuMultiTableSync - INFO - ✅ 成功加载 99 行数据
+2025-10-16 22:23:13,641 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-16 22:23:13,641 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-16 22:23:13,643 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-16 22:23:13,643 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-16 22:23:13,658 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 99 条有效记录
+2025-10-16 22:23:13,658 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 99 条记录，分 2 批处理
+2025-10-16 22:23:19,091 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-10-16 22:23:21,260 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 49 条记录
+2025-10-16 22:23:21,261 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 99 条记录
+2025-10-16 22:23:21,263 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 99 条记录
+2025-10-16 22:23:21,264 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-16 22:23:21,264 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-16 22:23:21,264 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-16 22:23:21,264 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-16 22:23:21,280 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 99 条有效记录
+2025-10-16 22:23:21,280 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 99 条记录，分 2 批处理
+2025-10-16 22:23:23,671 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-10-16 22:23:25,967 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 49 条记录
+2025-10-16 22:23:25,968 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 99 条记录
+2025-10-16 22:23:25,970 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 99 条记录
+2025-10-16 22:23:25,970 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-16 22:23:25,970 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-16 22:23:25,971 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-16 22:23:25,971 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-16 22:23:25,988 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 99 条有效记录
+2025-10-16 22:23:25,988 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 99 条记录，分 2 批处理
+2025-10-16 22:23:28,255 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-10-16 22:23:30,228 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 49 条记录
+2025-10-16 22:23:30,229 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 99 条记录
+2025-10-16 22:23:30,231 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 99 条记录
+2025-10-16 22:23:30,231 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-16 22:23:30,232 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-16 22:23:30,232 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 297
+2025-10-16 22:23:30,232 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 17.03 秒
+2025-10-18 18:33:48,585 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-18 18:33:48,585 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-18 18:33:48,585 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-18 18:33:48,790 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-18 18:33:48,793 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-18 18:33:49,079 - FeishuMultiTableSync - INFO - ✅ 成功加载 104 行数据
+2025-10-18 18:33:49,079 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-18 18:33:49,079 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-18 18:33:49,081 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-18 18:33:49,081 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-18 18:33:49,100 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 104 条有效记录
+2025-10-18 18:33:49,100 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 104 条记录，分 3 批处理
+2025-10-18 18:33:51,643 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-10-18 18:33:53,723 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-10-18 18:33:55,579 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 4 条记录
+2025-10-18 18:33:55,592 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 104 条记录
+2025-10-18 18:33:55,594 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 104 条记录
+2025-10-18 18:33:55,594 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-18 18:33:55,594 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-18 18:33:55,594 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-18 18:33:55,594 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-18 18:33:55,618 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 104 条有效记录
+2025-10-18 18:33:55,619 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 104 条记录，分 3 批处理
+2025-10-18 18:33:58,105 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-10-18 18:33:59,841 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-10-18 18:34:01,566 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 4 条记录
+2025-10-18 18:34:01,567 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 104 条记录
+2025-10-18 18:34:01,569 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 104 条记录
+2025-10-18 18:34:01,569 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-18 18:34:01,569 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-18 18:34:01,569 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-18 18:34:01,569 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-18 18:34:01,590 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 104 条有效记录
+2025-10-18 18:34:01,590 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 104 条记录，分 3 批处理
+2025-10-18 18:34:04,059 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-10-18 18:34:05,924 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-10-18 18:34:07,651 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 4 条记录
+2025-10-18 18:34:07,651 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 104 条记录
+2025-10-18 18:34:07,653 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 104 条记录
+2025-10-18 18:34:07,654 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-18 18:34:07,654 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-18 18:34:07,654 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 312
+2025-10-18 18:34:07,654 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 19.07 秒
+2025-10-19 20:55:13,429 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-19 20:55:13,430 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-19 20:55:13,430 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-19 20:55:13,629 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-19 20:55:13,632 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-19 20:55:13,895 - FeishuMultiTableSync - INFO - ✅ 成功加载 18 行数据
+2025-10-19 20:55:13,895 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-19 20:55:13,895 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-19 20:55:13,897 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-19 20:55:13,897 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-19 20:55:13,900 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 18 条有效记录
+2025-10-19 20:55:13,900 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 18 条记录，分 1 批处理
+2025-10-19 20:55:16,913 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 18 条记录
+2025-10-19 20:55:16,913 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 18 条记录
+2025-10-19 20:55:16,915 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 18 条记录
+2025-10-19 20:55:16,915 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-19 20:55:16,916 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-19 20:55:16,916 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-19 20:55:16,916 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-19 20:55:16,920 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 18 条有效记录
+2025-10-19 20:55:16,920 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 18 条记录，分 1 批处理
+2025-10-19 20:55:19,723 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 18 条记录
+2025-10-19 20:55:19,725 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 18 条记录
+2025-10-19 20:55:19,728 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 18 条记录
+2025-10-19 20:55:19,728 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-19 20:55:19,728 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-19 20:55:19,728 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-19 20:55:19,729 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-19 20:55:19,733 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 18 条有效记录
+2025-10-19 20:55:19,733 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 18 条记录，分 1 批处理
+2025-10-19 20:55:22,289 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 18 条记录
+2025-10-19 20:55:22,290 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 18 条记录
+2025-10-19 20:55:22,293 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 18 条记录
+2025-10-19 20:55:22,294 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-19 20:55:22,294 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-19 20:55:22,294 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 54
+2025-10-19 20:55:22,294 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 8.86 秒
+2025-10-20 21:41:39,406 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-20 21:41:39,406 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-20 21:41:39,406 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-20 21:41:39,685 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-20 21:41:39,688 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-20 21:41:39,972 - FeishuMultiTableSync - INFO - ✅ 成功加载 47 行数据
+2025-10-20 21:41:39,973 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-20 21:41:39,973 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-20 21:41:39,974 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-20 21:41:39,974 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-20 21:41:39,982 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 47 条有效记录
+2025-10-20 21:41:39,982 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 47 条记录，分 1 批处理
+2025-10-20 21:41:43,200 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 47 条记录
+2025-10-20 21:41:43,201 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 47 条记录
+2025-10-20 21:41:43,203 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 47 条记录
+2025-10-20 21:41:43,203 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-20 21:41:43,203 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-20 21:41:43,204 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-20 21:41:43,204 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-20 21:41:43,213 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 47 条有效记录
+2025-10-20 21:41:43,213 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 47 条记录，分 1 批处理
+2025-10-20 21:41:46,988 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 47 条记录
+2025-10-20 21:41:46,988 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 47 条记录
+2025-10-20 21:41:46,990 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 47 条记录
+2025-10-20 21:41:46,990 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-20 21:41:46,990 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-20 21:41:46,991 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-20 21:41:46,991 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-20 21:41:47,000 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 47 条有效记录
+2025-10-20 21:41:47,001 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 47 条记录，分 1 批处理
+2025-10-20 21:41:49,900 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 47 条记录
+2025-10-20 21:41:49,901 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 47 条记录
+2025-10-20 21:41:49,904 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 47 条记录
+2025-10-20 21:41:49,904 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-20 21:41:49,904 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-20 21:41:49,904 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 141
+2025-10-20 21:41:49,904 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 10.50 秒
+2025-10-21 22:12:20,027 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-21 22:12:20,027 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-21 22:12:20,027 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-21 22:12:20,235 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-21 22:12:20,240 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-21 22:12:20,563 - FeishuMultiTableSync - INFO - ✅ 成功加载 101 行数据
+2025-10-21 22:12:20,563 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-21 22:12:20,563 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-21 22:12:20,565 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-21 22:12:20,565 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-21 22:12:20,581 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 101 条有效记录
+2025-10-21 22:12:20,581 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 101 条记录，分 3 批处理
+2025-10-21 22:12:23,165 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-10-21 22:12:25,204 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-10-21 22:12:26,975 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 1 条记录
+2025-10-21 22:12:26,975 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 101 条记录
+2025-10-21 22:12:26,977 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 101 条记录
+2025-10-21 22:12:26,978 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-21 22:12:26,978 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-21 22:12:26,978 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-21 22:12:26,978 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-21 22:12:26,995 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 101 条有效记录
+2025-10-21 22:12:26,996 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 101 条记录，分 3 批处理
+2025-10-21 22:12:30,020 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-10-21 22:12:32,421 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-10-21 22:12:34,496 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 1 条记录
+2025-10-21 22:12:34,497 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 101 条记录
+2025-10-21 22:12:34,499 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 101 条记录
+2025-10-21 22:12:34,499 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-21 22:12:34,499 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-21 22:12:34,499 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-21 22:12:34,499 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-21 22:12:34,515 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 101 条有效记录
+2025-10-21 22:12:34,516 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 101 条记录，分 3 批处理
+2025-10-21 22:12:37,923 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-10-21 22:12:40,180 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-10-21 22:12:41,910 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 1 条记录
+2025-10-21 22:12:41,911 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 101 条记录
+2025-10-21 22:12:41,913 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 101 条记录
+2025-10-21 22:12:41,913 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-21 22:12:41,913 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-21 22:12:41,913 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 303
+2025-10-21 22:12:41,913 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 21.89 秒
+2025-10-22 21:55:08,761 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-22 21:55:08,762 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-22 21:55:08,762 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-22 21:55:09,027 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-22 21:55:09,030 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-22 21:55:09,325 - FeishuMultiTableSync - INFO - ✅ 成功加载 67 行数据
+2025-10-22 21:55:09,325 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-22 21:55:09,325 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-22 21:55:09,327 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-22 21:55:09,327 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-22 21:55:09,338 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 67 条有效记录
+2025-10-22 21:55:09,338 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 67 条记录，分 2 批处理
+2025-10-22 21:55:12,142 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-10-22 21:55:14,517 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 17 条记录
+2025-10-22 21:55:14,518 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 67 条记录
+2025-10-22 21:55:14,520 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 67 条记录
+2025-10-22 21:55:14,520 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-22 21:55:14,520 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-22 21:55:14,521 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-22 21:55:14,521 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-22 21:55:14,534 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 67 条有效记录
+2025-10-22 21:55:14,534 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 67 条记录，分 2 批处理
+2025-10-22 21:55:17,365 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-10-22 21:55:19,688 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 17 条记录
+2025-10-22 21:55:19,689 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 67 条记录
+2025-10-22 21:55:19,691 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 67 条记录
+2025-10-22 21:55:19,691 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-22 21:55:19,692 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-22 21:55:19,692 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-22 21:55:19,692 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-22 21:55:19,706 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 67 条有效记录
+2025-10-22 21:55:19,706 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 67 条记录，分 2 批处理
+2025-10-22 21:55:22,067 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-10-22 21:55:23,984 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 17 条记录
+2025-10-22 21:55:23,985 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 67 条记录
+2025-10-22 21:55:23,987 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 67 条记录
+2025-10-22 21:55:23,987 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-22 21:55:23,987 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-22 21:55:23,987 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 201
+2025-10-22 21:55:23,987 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 15.22 秒
+2025-10-25 16:48:36,573 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-25 16:48:36,574 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-25 16:48:36,574 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-25 16:48:38,504 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-25 16:48:38,506 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-25 16:48:38,794 - FeishuMultiTableSync - INFO - ✅ 成功加载 130 行数据
+2025-10-25 16:48:38,794 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-25 16:48:38,795 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-25 16:48:38,796 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-25 16:48:38,796 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-25 16:48:38,814 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 130 条有效记录
+2025-10-25 16:48:38,814 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 130 条记录，分 3 批处理
+2025-10-25 16:48:43,957 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-10-25 16:48:47,984 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-10-25 16:48:52,047 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 30 条记录
+2025-10-25 16:48:52,048 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 130 条记录
+2025-10-25 16:48:52,050 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 130 条记录
+2025-10-25 16:48:52,050 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-25 16:48:52,050 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-25 16:48:52,050 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-25 16:48:52,051 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-25 16:48:52,073 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 130 条有效记录
+2025-10-25 16:48:52,074 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 130 条记录，分 3 批处理
+2025-10-25 16:48:56,836 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-10-25 16:49:00,640 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-10-25 16:49:04,651 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 30 条记录
+2025-10-25 16:49:04,651 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 130 条记录
+2025-10-25 16:49:04,653 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 130 条记录
+2025-10-25 16:49:04,654 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-25 16:49:04,654 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-25 16:49:04,654 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-25 16:49:04,654 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-25 16:49:04,682 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 130 条有效记录
+2025-10-25 16:49:04,682 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 130 条记录，分 3 批处理
+2025-10-25 16:49:09,260 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-10-25 16:49:13,149 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-10-25 16:49:16,913 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 30 条记录
+2025-10-25 16:49:16,914 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 130 条记录
+2025-10-25 16:49:16,916 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 130 条记录
+2025-10-25 16:49:16,916 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-25 16:49:16,916 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-25 16:49:16,916 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 390
+2025-10-25 16:49:16,916 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 40.34 秒
+2025-10-27 16:35:18,553 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-27 16:35:18,553 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-27 16:35:18,553 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-27 16:35:20,685 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-27 16:35:20,687 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-27 16:35:20,979 - FeishuMultiTableSync - INFO - ✅ 成功加载 51 行数据
+2025-10-27 16:35:20,979 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-27 16:35:20,979 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-27 16:35:20,981 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-27 16:35:20,981 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-27 16:35:20,989 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 51 条有效记录
+2025-10-27 16:35:20,989 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 51 条记录，分 2 批处理
+2025-10-27 16:35:26,434 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-10-27 16:35:30,065 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 1 条记录
+2025-10-27 16:35:30,065 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 51 条记录
+2025-10-27 16:35:30,067 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 51 条记录
+2025-10-27 16:35:30,067 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-27 16:35:30,067 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-27 16:35:30,067 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-27 16:35:30,067 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-27 16:35:30,075 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 51 条有效记录
+2025-10-27 16:35:30,075 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 51 条记录，分 2 批处理
+2025-10-27 16:35:35,465 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-10-27 16:35:39,459 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 1 条记录
+2025-10-27 16:35:39,460 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 51 条记录
+2025-10-27 16:35:39,462 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 51 条记录
+2025-10-27 16:35:39,462 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-27 16:35:39,462 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-27 16:35:39,462 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-27 16:35:39,462 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-27 16:35:39,472 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 51 条有效记录
+2025-10-27 16:35:39,472 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 51 条记录，分 2 批处理
+2025-10-27 16:35:45,257 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-10-27 16:35:49,039 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 1 条记录
+2025-10-27 16:35:49,040 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 51 条记录
+2025-10-27 16:35:49,042 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 51 条记录
+2025-10-27 16:35:49,042 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-27 16:35:49,042 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-27 16:35:49,042 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 153
+2025-10-27 16:35:49,042 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 30.49 秒
+2025-10-27 23:26:13,845 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-27 23:26:13,846 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-27 23:26:13,846 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-27 23:26:16,185 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-27 23:26:16,189 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-27 23:26:16,449 - FeishuMultiTableSync - INFO - ✅ 成功加载 38 行数据
+2025-10-27 23:26:16,449 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-27 23:26:16,450 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-27 23:26:16,451 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-27 23:26:16,451 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-27 23:26:16,458 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 38 条有效记录
+2025-10-27 23:26:16,458 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 38 条记录，分 1 批处理
+2025-10-27 23:26:22,325 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 38 条记录
+2025-10-27 23:26:22,325 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 38 条记录
+2025-10-27 23:26:22,327 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 38 条记录
+2025-10-27 23:26:22,327 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-27 23:26:22,327 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-27 23:26:22,327 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-27 23:26:22,328 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-27 23:26:22,335 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 38 条有效记录
+2025-10-27 23:26:22,335 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 38 条记录，分 1 批处理
+2025-10-27 23:26:26,598 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 38 条记录
+2025-10-27 23:26:26,598 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 38 条记录
+2025-10-27 23:26:26,601 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 38 条记录
+2025-10-27 23:26:26,601 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-27 23:26:26,601 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-27 23:26:26,601 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-27 23:26:26,602 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-27 23:26:26,609 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 38 条有效记录
+2025-10-27 23:26:26,609 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 38 条记录，分 1 批处理
+2025-10-27 23:26:30,368 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 38 条记录
+2025-10-27 23:26:30,369 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 38 条记录
+2025-10-27 23:26:30,371 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 38 条记录
+2025-10-27 23:26:30,371 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-27 23:26:30,371 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-27 23:26:30,371 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 114
+2025-10-27 23:26:30,371 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 16.53 秒
+2025-10-28 23:24:16,327 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-28 23:24:16,327 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-28 23:24:16,327 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-28 23:24:18,497 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-28 23:24:18,500 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-28 23:24:18,819 - FeishuMultiTableSync - INFO - ✅ 成功加载 54 行数据
+2025-10-28 23:24:18,819 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-28 23:24:18,819 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-28 23:24:18,821 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-28 23:24:18,821 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-28 23:24:18,829 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 54 条有效记录
+2025-10-28 23:24:18,829 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 54 条记录，分 2 批处理
+2025-10-28 23:24:23,276 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-10-28 23:24:27,801 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 4 条记录
+2025-10-28 23:24:27,802 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 54 条记录
+2025-10-28 23:24:27,805 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 54 条记录
+2025-10-28 23:24:27,805 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-28 23:24:27,805 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-28 23:24:27,805 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-28 23:24:27,805 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-28 23:24:27,818 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 54 条有效记录
+2025-10-28 23:24:27,818 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 54 条记录，分 2 批处理
+2025-10-28 23:24:32,069 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-10-28 23:24:36,077 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 4 条记录
+2025-10-28 23:24:36,078 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 54 条记录
+2025-10-28 23:24:36,080 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 54 条记录
+2025-10-28 23:24:36,080 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-28 23:24:36,080 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-28 23:24:36,080 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-28 23:24:36,080 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-28 23:24:36,095 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 54 条有效记录
+2025-10-28 23:24:36,095 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 54 条记录，分 2 批处理
+2025-10-28 23:24:40,592 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-10-28 23:24:44,740 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 4 条记录
+2025-10-28 23:24:44,742 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 54 条记录
+2025-10-28 23:24:44,744 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 54 条记录
+2025-10-28 23:24:44,744 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-28 23:24:44,745 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-28 23:24:44,745 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 162
+2025-10-28 23:24:44,745 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 28.42 秒
+2025-10-30 23:29:51,167 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-10-30 23:29:51,167 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-10-30 23:29:51,167 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-10-30 23:29:53,390 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-10-30 23:29:53,393 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-10-30 23:29:53,650 - FeishuMultiTableSync - INFO - ✅ 成功加载 115 行数据
+2025-10-30 23:29:53,650 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-10-30 23:29:53,651 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-30 23:29:53,652 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-30 23:29:53,652 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-30 23:29:53,671 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 115 条有效记录
+2025-10-30 23:29:53,671 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 115 条记录，分 3 批处理
+2025-10-30 23:29:56,666 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-10-30 23:29:58,932 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-10-30 23:30:00,993 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 15 条记录
+2025-10-30 23:30:01,013 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 115 条记录
+2025-10-30 23:30:01,016 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 115 条记录
+2025-10-30 23:30:01,036 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-10-30 23:30:01,036 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-30 23:30:01,036 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-30 23:30:01,036 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-30 23:30:01,059 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 115 条有效记录
+2025-10-30 23:30:01,060 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 115 条记录，分 3 批处理
+2025-10-30 23:30:04,003 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-10-30 23:30:06,148 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-10-30 23:30:08,336 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 15 条记录
+2025-10-30 23:30:08,337 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 115 条记录
+2025-10-30 23:30:08,339 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 115 条记录
+2025-10-30 23:30:08,339 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-10-30 23:30:08,339 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-10-30 23:30:08,339 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-10-30 23:30:08,339 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-10-30 23:30:08,364 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 115 条有效记录
+2025-10-30 23:30:08,365 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 115 条记录，分 3 批处理
+2025-10-30 23:30:11,600 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-10-30 23:30:13,565 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-10-30 23:30:15,499 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 15 条记录
+2025-10-30 23:30:15,500 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 115 条记录
+2025-10-30 23:30:15,502 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 115 条记录
+2025-10-30 23:30:15,502 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-10-30 23:30:15,502 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-10-30 23:30:15,503 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 345
+2025-10-30 23:30:15,503 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 24.34 秒
+2025-11-03 21:36:59,535 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-03 21:36:59,536 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-03 21:36:59,536 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-03 21:36:59,755 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-03 21:36:59,760 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-03 21:37:00,044 - FeishuMultiTableSync - INFO - ✅ 成功加载 211 行数据
+2025-11-03 21:37:00,044 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-11-03 21:37:00,045 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-03 21:37:00,045 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-03 21:37:00,045 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-03 21:37:00,073 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 211 条有效记录
+2025-11-03 21:37:00,073 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 211 条记录，分 5 批处理
+2025-11-03 21:37:02,928 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/5 成功插入 50 条记录
+2025-11-03 21:37:05,817 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/5 成功插入 50 条记录
+2025-11-03 21:37:08,077 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/5 成功插入 50 条记录
+2025-11-03 21:37:10,429 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 4/5 成功插入 50 条记录
+2025-11-03 21:37:13,178 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 5/5 成功插入 11 条记录
+2025-11-03 21:37:13,179 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 211 条记录
+2025-11-03 21:37:13,181 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 211 条记录
+2025-11-03 21:37:13,181 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-11-03 21:37:13,181 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-03 21:37:13,182 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-03 21:37:13,182 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-03 21:37:13,232 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 211 条有效记录
+2025-11-03 21:37:13,232 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 211 条记录，分 5 批处理
+2025-11-03 21:37:15,979 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/5 成功插入 50 条记录
+2025-11-03 21:37:18,067 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/5 成功插入 50 条记录
+2025-11-03 21:37:20,485 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/5 成功插入 50 条记录
+2025-11-03 21:37:22,729 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 4/5 成功插入 50 条记录
+2025-11-03 21:37:24,988 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 5/5 成功插入 11 条记录
+2025-11-03 21:37:24,989 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 211 条记录
+2025-11-03 21:37:24,991 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 211 条记录
+2025-11-03 21:37:24,991 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-11-03 21:37:24,991 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-03 21:37:24,991 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-03 21:37:24,991 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-03 21:37:25,028 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 211 条有效记录
+2025-11-03 21:37:25,028 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 211 条记录，分 5 批处理
+2025-11-03 21:37:27,489 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/5 成功插入 50 条记录
+2025-11-03 21:37:29,520 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/5 成功插入 50 条记录
+2025-11-03 21:37:31,546 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/5 成功插入 50 条记录
+2025-11-03 21:37:33,548 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 4/5 成功插入 50 条记录
+2025-11-03 21:37:36,154 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 5/5 成功插入 11 条记录
+2025-11-03 21:37:36,154 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 211 条记录
+2025-11-03 21:37:36,157 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 211 条记录
+2025-11-03 21:37:36,157 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-11-03 21:37:36,157 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-11-03 21:37:36,157 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 633
+2025-11-03 21:37:36,157 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 36.62 秒
+2025-11-05 23:09:47,538 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-05 23:09:47,538 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-05 23:09:47,538 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-05 23:09:47,801 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-05 23:09:47,806 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-05 23:09:48,068 - FeishuMultiTableSync - INFO - ✅ 成功加载 96 行数据
+2025-11-05 23:09:48,068 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-11-05 23:09:48,068 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-05 23:09:48,069 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-05 23:09:48,069 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-05 23:09:48,088 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 96 条有效记录
+2025-11-05 23:09:48,089 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 96 条记录，分 2 批处理
+2025-11-05 23:09:50,751 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-11-05 23:09:52,850 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 46 条记录
+2025-11-05 23:09:52,851 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 96 条记录
+2025-11-05 23:09:52,853 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 96 条记录
+2025-11-05 23:09:52,853 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-11-05 23:09:52,853 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-05 23:09:52,853 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-05 23:09:52,853 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-05 23:09:52,870 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 96 条有效记录
+2025-11-05 23:09:52,870 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 96 条记录，分 2 批处理
+2025-11-05 23:09:55,251 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-11-05 23:09:57,165 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 46 条记录
+2025-11-05 23:09:57,166 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 96 条记录
+2025-11-05 23:09:57,168 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 96 条记录
+2025-11-05 23:09:57,168 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-11-05 23:09:57,168 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-05 23:09:57,168 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-05 23:09:57,169 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-05 23:09:57,184 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 96 条有效记录
+2025-11-05 23:09:57,184 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 96 条记录，分 2 批处理
+2025-11-05 23:09:59,556 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-11-05 23:10:01,714 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 46 条记录
+2025-11-05 23:10:01,714 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 96 条记录
+2025-11-05 23:10:01,716 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 96 条记录
+2025-11-05 23:10:01,716 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-11-05 23:10:01,716 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-11-05 23:10:01,717 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 288
+2025-11-05 23:10:01,717 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 14.18 秒
+2025-11-07 19:04:27,561 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-07 19:04:27,562 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-07 19:04:27,562 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-07 19:04:27,794 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-07 19:04:27,797 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-07 19:04:28,091 - FeishuMultiTableSync - INFO - ✅ 成功加载 89 行数据
+2025-11-07 19:04:28,092 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-11-07 19:04:28,092 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-07 19:04:28,093 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-07 19:04:28,094 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-07 19:04:28,109 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 89 条有效记录
+2025-11-07 19:04:28,109 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 89 条记录，分 2 批处理
+2025-11-07 19:04:31,133 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-11-07 19:04:33,416 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 39 条记录
+2025-11-07 19:04:33,417 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 89 条记录
+2025-11-07 19:04:33,420 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 89 条记录
+2025-11-07 19:04:33,420 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-11-07 19:04:33,420 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-07 19:04:33,420 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-07 19:04:33,420 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-07 19:04:33,433 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 89 条有效记录
+2025-11-07 19:04:33,434 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 89 条记录，分 2 批处理
+2025-11-07 19:04:36,130 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-11-07 19:04:38,793 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 39 条记录
+2025-11-07 19:04:38,793 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 89 条记录
+2025-11-07 19:04:38,796 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 89 条记录
+2025-11-07 19:04:38,796 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-11-07 19:04:38,796 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-07 19:04:38,796 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-07 19:04:38,797 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-07 19:04:38,814 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 89 条有效记录
+2025-11-07 19:04:38,814 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 89 条记录，分 2 批处理
+2025-11-07 19:04:41,733 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-11-07 19:04:44,218 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 39 条记录
+2025-11-07 19:04:44,218 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 89 条记录
+2025-11-07 19:04:44,221 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 89 条记录
+2025-11-07 19:04:44,221 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-11-07 19:04:44,221 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-11-07 19:04:44,221 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 267
+2025-11-07 19:04:44,221 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 16.66 秒
+2025-11-10 10:45:35,369 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-10 10:45:35,370 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-10 10:45:35,370 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-10 10:45:35,598 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-10 10:45:35,601 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-10 10:45:35,846 - FeishuMultiTableSync - INFO - ✅ 成功加载 39 行数据
+2025-11-10 10:45:35,846 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-11-10 10:45:35,846 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-10 10:45:35,847 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-10 10:45:35,847 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-10 10:45:35,853 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 39 条有效记录
+2025-11-10 10:45:35,854 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 39 条记录，分 1 批处理
+2025-11-10 10:45:39,068 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/1 成功插入 39 条记录
+2025-11-10 10:45:39,069 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 39 条记录
+2025-11-10 10:45:39,071 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 39 条记录
+2025-11-10 10:45:39,071 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-11-10 10:45:39,071 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-10 10:45:39,071 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-10 10:45:39,072 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-10 10:45:39,079 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 39 条有效记录
+2025-11-10 10:45:39,079 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 39 条记录，分 1 批处理
+2025-11-10 10:45:42,692 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/1 成功插入 39 条记录
+2025-11-10 10:45:42,693 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 39 条记录
+2025-11-10 10:45:42,696 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 39 条记录
+2025-11-10 10:45:42,696 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-11-10 10:45:42,696 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-10 10:45:42,696 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-10 10:45:42,697 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-10 10:45:42,707 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 39 条有效记录
+2025-11-10 10:45:42,708 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 39 条记录，分 1 批处理
+2025-11-10 10:45:46,381 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/1 成功插入 39 条记录
+2025-11-10 10:45:46,382 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 39 条记录
+2025-11-10 10:45:46,384 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 39 条记录
+2025-11-10 10:45:46,384 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-11-10 10:45:46,384 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-11-10 10:45:46,385 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 117
+2025-11-10 10:45:46,385 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 11.01 秒
+2025-11-13 22:28:14,822 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-13 22:28:14,823 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-13 22:28:14,823 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-13 22:28:15,052 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-13 22:28:15,055 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-13 22:28:15,383 - FeishuMultiTableSync - INFO - ✅ 成功加载 157 行数据
+2025-11-13 22:28:15,383 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-11-13 22:28:15,383 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-13 22:28:15,384 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-13 22:28:15,385 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-13 22:28:15,409 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 157 条有效记录
+2025-11-13 22:28:15,409 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 157 条记录，分 4 批处理
+2025-11-13 22:28:18,018 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/4 成功插入 50 条记录
+2025-11-13 22:28:20,209 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/4 成功插入 50 条记录
+2025-11-13 22:28:22,286 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/4 成功插入 50 条记录
+2025-11-13 22:28:24,145 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 4/4 成功插入 7 条记录
+2025-11-13 22:28:24,146 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 157 条记录
+2025-11-13 22:28:24,149 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 157 条记录
+2025-11-13 22:28:24,149 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-11-13 22:28:24,150 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-13 22:28:24,150 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-13 22:28:24,150 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-13 22:28:24,177 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 157 条有效记录
+2025-11-13 22:28:24,196 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 157 条记录，分 4 批处理
+2025-11-13 22:28:27,085 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/4 成功插入 50 条记录
+2025-11-13 22:28:29,337 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/4 成功插入 50 条记录
+2025-11-13 22:28:31,589 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/4 成功插入 50 条记录
+2025-11-13 22:28:33,300 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 4/4 成功插入 7 条记录
+2025-11-13 22:28:33,301 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 157 条记录
+2025-11-13 22:28:33,303 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 157 条记录
+2025-11-13 22:28:33,303 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-11-13 22:28:33,303 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-13 22:28:33,303 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-13 22:28:33,303 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-13 22:28:33,330 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 157 条有效记录
+2025-11-13 22:28:33,332 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 157 条记录，分 4 批处理
+2025-11-13 22:28:36,399 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/4 成功插入 50 条记录
+2025-11-13 22:28:38,503 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/4 成功插入 50 条记录
+2025-11-13 22:28:40,599 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/4 成功插入 50 条记录
+2025-11-13 22:28:42,800 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 4/4 成功插入 7 条记录
+2025-11-13 22:28:42,801 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 157 条记录
+2025-11-13 22:28:42,803 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 157 条记录
+2025-11-13 22:28:42,803 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-11-13 22:28:42,804 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-11-13 22:28:42,804 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 471
+2025-11-13 22:28:42,804 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 27.98 秒
+2025-11-18 22:33:21,946 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-18 22:33:21,947 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-18 22:33:21,947 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-18 22:33:22,160 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-18 22:33:22,163 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-18 22:33:22,445 - FeishuMultiTableSync - INFO - ✅ 成功加载 128 行数据
+2025-11-18 22:33:22,445 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-11-18 22:33:22,445 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-18 22:33:22,446 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-18 22:33:22,446 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-18 22:33:22,465 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 128 条有效记录
+2025-11-18 22:33:22,465 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 128 条记录，分 3 批处理
+2025-11-18 22:33:25,054 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-11-18 22:33:27,083 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-11-18 22:33:28,984 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 28 条记录
+2025-11-18 22:33:28,988 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 128 条记录
+2025-11-18 22:33:29,013 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 128 条记录
+2025-11-18 22:33:29,031 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-11-18 22:33:29,031 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-18 22:33:29,031 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-18 22:33:29,031 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-18 22:33:29,056 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 128 条有效记录
+2025-11-18 22:33:29,076 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 128 条记录，分 3 批处理
+2025-11-18 22:33:31,530 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-11-18 22:33:33,739 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-11-18 22:33:36,095 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 28 条记录
+2025-11-18 22:33:36,096 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 128 条记录
+2025-11-18 22:33:36,098 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 128 条记录
+2025-11-18 22:33:36,098 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-11-18 22:33:36,098 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-18 22:33:36,098 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-18 22:33:36,098 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-18 22:33:36,120 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 128 条有效记录
+2025-11-18 22:33:36,120 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 128 条记录，分 3 批处理
+2025-11-18 22:33:38,794 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-11-18 22:33:40,865 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-11-18 22:33:43,798 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 28 条记录
+2025-11-18 22:33:43,798 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 128 条记录
+2025-11-18 22:33:43,800 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 128 条记录
+2025-11-18 22:33:43,800 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-11-18 22:33:43,800 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-11-18 22:33:43,801 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 384
+2025-11-18 22:33:43,801 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 21.85 秒
+2025-11-23 22:11:32,626 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-23 22:11:32,627 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-23 22:11:32,627 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-23 22:11:33,104 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-23 22:11:33,108 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-23 22:11:33,108 - FeishuMultiTableSync - ERROR - ❌ 多表格数据同步任务失败: Excel文件不存在: data/ggivemeoc_20251123_210303.xlsx
+2025-11-23 22:11:46,791 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-23 22:11:46,791 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-23 22:11:46,792 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-23 22:11:46,965 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-23 22:11:46,968 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-23 22:11:47,331 - FeishuMultiTableSync - INFO - ✅ 成功加载 159 行数据
+2025-11-23 22:11:47,331 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-11-23 22:11:47,332 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-23 22:11:47,332 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '所属行业(新增)'
+2025-11-23 22:11:47,332 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '内推码'
+2025-11-23 22:11:47,333 - FeishuMultiTableSync - WARNING - ⚠️ 以下字段在数据源中不存在: ['所属行业(新增)', '内推码']
+2025-11-23 22:11:47,333 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-23 22:11:47,333 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-23 22:11:47,357 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 159 条有效记录
+2025-11-23 22:11:47,357 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 159 条记录，分 4 批处理
+2025-11-23 22:11:49,987 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/4 成功插入 50 条记录
+2025-11-23 22:11:52,245 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/4 成功插入 50 条记录
+2025-11-23 22:11:54,132 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/4 成功插入 50 条记录
+2025-11-23 22:11:56,341 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 4/4 成功插入 9 条记录
+2025-11-23 22:11:56,342 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 159 条记录
+2025-11-23 22:11:56,344 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 159 条记录
+2025-11-23 22:11:56,365 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-11-23 22:11:56,365 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-23 22:11:56,366 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '所属行业(新增)'
+2025-11-23 22:11:56,366 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '内推码'
+2025-11-23 22:11:56,366 - FeishuMultiTableSync - WARNING - ⚠️ 以下字段在数据源中不存在: ['所属行业(新增)', '内推码']
+2025-11-23 22:11:56,366 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-23 22:11:56,366 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-23 22:11:56,395 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 159 条有效记录
+2025-11-23 22:11:56,412 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 159 条记录，分 4 批处理
+2025-11-23 22:11:58,892 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/4 成功插入 50 条记录
+2025-11-23 22:12:01,252 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/4 成功插入 50 条记录
+2025-11-23 22:12:03,708 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/4 成功插入 50 条记录
+2025-11-23 22:12:05,551 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 4/4 成功插入 9 条记录
+2025-11-23 22:12:05,552 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 159 条记录
+2025-11-23 22:12:05,555 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 159 条记录
+2025-11-23 22:12:05,555 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-11-23 22:12:05,555 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-23 22:12:05,555 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '所属行业(新增)'
+2025-11-23 22:12:05,555 - FeishuMultiTableSync - WARNING - ⚠️ 字段验证失败，跳过验证: '内推码'
+2025-11-23 22:12:05,555 - FeishuMultiTableSync - WARNING - ⚠️ 以下字段在数据源中不存在: ['所属行业(新增)', '内推码']
+2025-11-23 22:12:05,556 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-23 22:12:05,556 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-23 22:12:05,584 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 159 条有效记录
+2025-11-23 22:12:05,585 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 159 条记录，分 4 批处理
+2025-11-23 22:12:08,008 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/4 成功插入 50 条记录
+2025-11-23 22:12:10,195 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/4 成功插入 50 条记录
+2025-11-23 22:12:12,178 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/4 成功插入 50 条记录
+2025-11-23 22:12:14,050 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 4/4 成功插入 9 条记录
+2025-11-23 22:12:14,051 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 159 条记录
+2025-11-23 22:12:14,054 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 159 条记录
+2025-11-23 22:12:14,054 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-11-23 22:12:14,054 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-11-23 22:12:14,054 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 477
+2025-11-23 22:12:14,054 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 27.26 秒
+2025-11-27 23:59:24,959 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-11-27 23:59:24,960 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-11-27 23:59:24,960 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-11-27 23:59:25,266 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-11-27 23:59:25,269 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-11-27 23:59:25,576 - FeishuMultiTableSync - INFO - ✅ 成功加载 136 行数据
+2025-11-27 23:59:25,576 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-11-27 23:59:25,576 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-27 23:59:25,578 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-27 23:59:25,578 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-27 23:59:25,600 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 136 条有效记录
+2025-11-27 23:59:25,600 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 136 条记录，分 3 批处理
+2025-11-27 23:59:28,589 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-11-27 23:59:30,929 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-11-27 23:59:33,149 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 36 条记录
+2025-11-27 23:59:33,171 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 136 条记录
+2025-11-27 23:59:33,193 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 136 条记录
+2025-11-27 23:59:33,193 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-11-27 23:59:33,193 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-27 23:59:33,194 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-27 23:59:33,194 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-27 23:59:33,213 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 136 条有效记录
+2025-11-27 23:59:33,213 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 136 条记录，分 3 批处理
+2025-11-27 23:59:36,747 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-11-27 23:59:39,148 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-11-27 23:59:41,961 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 36 条记录
+2025-11-27 23:59:41,961 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 136 条记录
+2025-11-27 23:59:41,964 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 136 条记录
+2025-11-27 23:59:41,964 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-11-27 23:59:41,964 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-11-27 23:59:41,964 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-11-27 23:59:41,964 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-11-27 23:59:42,014 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 136 条有效记录
+2025-11-27 23:59:42,014 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 136 条记录，分 3 批处理
+2025-11-27 23:59:44,593 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-11-27 23:59:46,870 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-11-27 23:59:49,111 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 36 条记录
+2025-11-27 23:59:49,112 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 136 条记录
+2025-11-27 23:59:49,115 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 136 条记录
+2025-11-27 23:59:49,116 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-11-27 23:59:49,116 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-11-27 23:59:49,116 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 408
+2025-11-27 23:59:49,116 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 24.16 秒
+2025-12-01 21:22:53,657 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-12-01 21:22:53,657 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-12-01 21:22:53,657 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-12-01 21:22:53,903 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-12-01 21:22:53,907 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-12-01 21:22:54,137 - FeishuMultiTableSync - INFO - ✅ 成功加载 100 行数据
+2025-12-01 21:22:54,137 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-12-01 21:22:54,137 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-01 21:22:54,138 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-01 21:22:54,138 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-01 21:22:54,156 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 100 条有效记录
+2025-12-01 21:22:54,156 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 100 条记录，分 2 批处理
+2025-12-01 21:22:56,977 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/2 成功插入 50 条记录
+2025-12-01 21:22:59,256 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/2 成功插入 50 条记录
+2025-12-01 21:22:59,257 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 100 条记录
+2025-12-01 21:22:59,259 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 100 条记录
+2025-12-01 21:22:59,260 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-12-01 21:22:59,260 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-01 21:22:59,260 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-01 21:22:59,260 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-01 21:22:59,276 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 100 条有效记录
+2025-12-01 21:22:59,276 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 100 条记录，分 2 批处理
+2025-12-01 21:23:03,216 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/2 成功插入 50 条记录
+2025-12-01 21:23:05,910 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/2 成功插入 50 条记录
+2025-12-01 21:23:05,911 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 100 条记录
+2025-12-01 21:23:05,913 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 100 条记录
+2025-12-01 21:23:05,913 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-12-01 21:23:05,913 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-01 21:23:05,913 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-01 21:23:05,913 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-01 21:23:05,933 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 100 条有效记录
+2025-12-01 21:23:05,933 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 100 条记录，分 2 批处理
+2025-12-01 21:23:08,927 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/2 成功插入 50 条记录
+2025-12-01 21:23:11,355 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/2 成功插入 50 条记录
+2025-12-01 21:23:11,355 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 100 条记录
+2025-12-01 21:23:11,358 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 100 条记录
+2025-12-01 21:23:11,358 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-12-01 21:23:11,358 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-12-01 21:23:11,359 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 300
+2025-12-01 21:23:11,359 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 17.70 秒
+2025-12-07 22:07:55,337 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-12-07 22:07:55,445 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-12-07 22:07:55,445 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-12-07 22:07:55,692 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-12-07 22:07:55,696 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-12-07 22:07:56,041 - FeishuMultiTableSync - INFO - ✅ 成功加载 119 行数据
+2025-12-07 22:07:56,041 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-12-07 22:07:56,042 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-07 22:07:56,043 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-07 22:07:56,043 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-07 22:07:56,065 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 119 条有效记录
+2025-12-07 22:07:56,066 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 119 条记录，分 3 批处理
+2025-12-07 22:07:58,846 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-12-07 22:08:01,485 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-12-07 22:08:03,729 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 19 条记录
+2025-12-07 22:08:03,730 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 119 条记录
+2025-12-07 22:08:03,732 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 119 条记录
+2025-12-07 22:08:03,733 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-12-07 22:08:03,734 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-07 22:08:03,735 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-07 22:08:03,735 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-07 22:08:03,763 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 119 条有效记录
+2025-12-07 22:08:03,784 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 119 条记录，分 3 批处理
+2025-12-07 22:08:07,355 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-12-07 22:08:09,735 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-12-07 22:08:11,874 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 19 条记录
+2025-12-07 22:08:11,874 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 119 条记录
+2025-12-07 22:08:11,876 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 119 条记录
+2025-12-07 22:08:11,876 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-12-07 22:08:11,877 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-07 22:08:11,877 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-07 22:08:11,877 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-07 22:08:11,905 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 119 条有效记录
+2025-12-07 22:08:11,905 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 119 条记录，分 3 批处理
+2025-12-07 22:08:15,122 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-12-07 22:08:17,814 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-12-07 22:08:20,072 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 19 条记录
+2025-12-07 22:08:20,072 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 119 条记录
+2025-12-07 22:08:20,075 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 119 条记录
+2025-12-07 22:08:20,075 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-12-07 22:08:20,075 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-12-07 22:08:20,075 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 357
+2025-12-07 22:08:20,075 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 24.63 秒
+2025-12-12 12:32:13,085 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-12-12 12:32:13,085 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-12-12 12:32:13,085 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-12-12 12:32:13,302 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-12-12 12:32:13,305 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-12-12 12:32:13,570 - FeishuMultiTableSync - INFO - ✅ 成功加载 133 行数据
+2025-12-12 12:32:13,570 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-12-12 12:32:13,570 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-12 12:32:13,572 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-12 12:32:13,572 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-12 12:32:13,593 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 133 条有效记录
+2025-12-12 12:32:13,593 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 133 条记录，分 3 批处理
+2025-12-12 12:32:17,001 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-12-12 12:32:19,441 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-12-12 12:32:21,736 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 33 条记录
+2025-12-12 12:32:21,737 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 133 条记录
+2025-12-12 12:32:21,739 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 133 条记录
+2025-12-12 12:32:21,739 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-12-12 12:32:21,740 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-12 12:32:21,740 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-12 12:32:21,740 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-12 12:32:21,763 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 133 条有效记录
+2025-12-12 12:32:21,763 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 133 条记录，分 3 批处理
+2025-12-12 12:32:25,107 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-12-12 12:32:27,692 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-12-12 12:32:30,112 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 33 条记录
+2025-12-12 12:32:30,113 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 133 条记录
+2025-12-12 12:32:30,117 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 133 条记录
+2025-12-12 12:32:30,117 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-12-12 12:32:30,117 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-12 12:32:30,117 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-12 12:32:30,117 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-12 12:32:30,169 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 133 条有效记录
+2025-12-12 12:32:30,169 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 133 条记录，分 3 批处理
+2025-12-12 12:32:33,696 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-12-12 12:32:36,430 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-12-12 12:32:38,872 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 33 条记录
+2025-12-12 12:32:38,872 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 133 条记录
+2025-12-12 12:32:38,874 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 133 条记录
+2025-12-12 12:32:38,874 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-12-12 12:32:38,874 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-12-12 12:32:38,874 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 399
+2025-12-12 12:32:38,874 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 25.79 秒
+2025-12-19 12:07:03,286 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2025-12-19 12:07:03,286 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2025-12-19 12:07:03,286 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2025-12-19 12:07:03,528 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2025-12-19 12:07:03,531 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2025-12-19 12:07:03,856 - FeishuMultiTableSync - INFO - ✅ 成功加载 122 行数据
+2025-12-19 12:07:03,856 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2025-12-19 12:07:03,857 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-19 12:07:03,858 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-19 12:07:03,858 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-19 12:07:03,878 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 122 条有效记录
+2025-12-19 12:07:03,878 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 122 条记录，分 3 批处理
+2025-12-19 12:07:06,830 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/3 成功插入 50 条记录
+2025-12-19 12:07:09,412 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/3 成功插入 50 条记录
+2025-12-19 12:07:11,835 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/3 成功插入 22 条记录
+2025-12-19 12:07:11,837 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 122 条记录
+2025-12-19 12:07:11,840 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 122 条记录
+2025-12-19 12:07:11,840 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2025-12-19 12:07:11,840 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-19 12:07:11,840 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-19 12:07:11,840 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-19 12:07:11,867 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 122 条有效记录
+2025-12-19 12:07:11,867 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 122 条记录，分 3 批处理
+2025-12-19 12:07:14,461 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/3 成功插入 50 条记录
+2025-12-19 12:07:16,807 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/3 成功插入 50 条记录
+2025-12-19 12:07:19,055 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/3 成功插入 22 条记录
+2025-12-19 12:07:19,056 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 122 条记录
+2025-12-19 12:07:19,059 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 122 条记录
+2025-12-19 12:07:19,059 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2025-12-19 12:07:19,059 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2025-12-19 12:07:19,059 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2025-12-19 12:07:19,059 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2025-12-19 12:07:19,084 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 122 条有效记录
+2025-12-19 12:07:19,084 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 122 条记录，分 3 批处理
+2025-12-19 12:07:22,641 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/3 成功插入 50 条记录
+2025-12-19 12:07:24,974 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/3 成功插入 50 条记录
+2025-12-19 12:07:27,405 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/3 成功插入 22 条记录
+2025-12-19 12:07:27,407 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 122 条记录
+2025-12-19 12:07:27,409 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 122 条记录
+2025-12-19 12:07:27,409 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2025-12-19 12:07:27,409 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2025-12-19 12:07:27,409 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 366
+2025-12-19 12:07:27,409 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 24.12 秒
+2026-01-12 22:29:11,865 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2026-01-12 22:29:11,873 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2026-01-12 22:29:11,873 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2026-01-12 22:29:12,067 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2026-01-12 22:29:12,070 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2026-01-12 22:29:12,454 - FeishuMultiTableSync - INFO - ✅ 成功加载 630 行数据
+2026-01-12 22:29:12,454 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2026-01-12 22:29:12,454 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2026-01-12 22:29:12,456 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2026-01-12 22:29:12,456 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2026-01-12 22:29:12,541 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 630 条有效记录
+2026-01-12 22:29:12,541 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 630 条记录，分 13 批处理
+2026-01-12 22:29:15,352 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/13 成功插入 50 条记录
+2026-01-12 22:29:17,516 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/13 成功插入 50 条记录
+2026-01-12 22:29:19,617 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/13 成功插入 50 条记录
+2026-01-12 22:29:21,851 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 4/13 成功插入 50 条记录
+2026-01-12 22:29:23,802 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 5/13 成功插入 50 条记录
+2026-01-12 22:29:25,848 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 6/13 成功插入 50 条记录
+2026-01-12 22:29:27,840 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 7/13 成功插入 50 条记录
+2026-01-12 22:29:29,829 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 8/13 成功插入 50 条记录
+2026-01-12 22:29:32,230 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 9/13 成功插入 50 条记录
+2026-01-12 22:29:34,247 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 10/13 成功插入 50 条记录
+2026-01-12 22:29:36,208 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 11/13 成功插入 50 条记录
+2026-01-12 22:29:38,278 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 12/13 成功插入 50 条记录
+2026-01-12 22:29:40,235 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 13/13 成功插入 30 条记录
+2026-01-12 22:29:40,235 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 630 条记录
+2026-01-12 22:29:40,238 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 630 条记录
+2026-01-12 22:29:40,238 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2026-01-12 22:29:40,238 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2026-01-12 22:29:40,238 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2026-01-12 22:29:40,238 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2026-01-12 22:29:40,326 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 630 条有效记录
+2026-01-12 22:29:40,330 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 630 条记录，分 13 批处理
+2026-01-12 22:29:42,936 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/13 成功插入 50 条记录
+2026-01-12 22:29:45,179 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/13 成功插入 50 条记录
+2026-01-12 22:29:47,420 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/13 成功插入 50 条记录
+2026-01-12 22:29:49,659 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 4/13 成功插入 50 条记录
+2026-01-12 22:29:52,200 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 5/13 成功插入 50 条记录
+2026-01-12 22:29:54,363 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 6/13 成功插入 50 条记录
+2026-01-12 22:29:56,784 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 7/13 成功插入 50 条记录
+2026-01-12 22:29:59,063 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 8/13 成功插入 50 条记录
+2026-01-12 22:30:01,248 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 9/13 成功插入 50 条记录
+2026-01-12 22:30:03,530 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 10/13 成功插入 50 条记录
+2026-01-12 22:30:05,750 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 11/13 成功插入 50 条记录
+2026-01-12 22:30:08,025 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 12/13 成功插入 50 条记录
+2026-01-12 22:30:10,146 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 13/13 成功插入 30 条记录
+2026-01-12 22:30:10,147 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 630 条记录
+2026-01-12 22:30:10,149 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 630 条记录
+2026-01-12 22:30:10,150 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2026-01-12 22:30:10,150 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2026-01-12 22:30:10,150 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2026-01-12 22:30:10,150 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2026-01-12 22:30:10,244 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 630 条有效记录
+2026-01-12 22:30:10,244 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 630 条记录，分 13 批处理
+2026-01-12 22:30:12,827 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/13 成功插入 50 条记录
+2026-01-12 22:30:14,974 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/13 成功插入 50 条记录
+2026-01-12 22:30:17,953 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/13 成功插入 50 条记录
+2026-01-12 22:30:20,042 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 4/13 成功插入 50 条记录
+2026-01-12 22:30:22,617 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 5/13 成功插入 50 条记录
+2026-01-12 22:30:24,828 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 6/13 成功插入 50 条记录
+2026-01-12 22:30:27,058 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 7/13 成功插入 50 条记录
+2026-01-12 22:30:29,196 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 8/13 成功插入 50 条记录
+2026-01-12 22:30:31,349 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 9/13 成功插入 50 条记录
+2026-01-12 22:30:33,560 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 10/13 成功插入 50 条记录
+2026-01-12 22:30:35,755 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 11/13 成功插入 50 条记录
+2026-01-12 22:30:38,054 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 12/13 成功插入 50 条记录
+2026-01-12 22:30:40,152 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 13/13 成功插入 30 条记录
+2026-01-12 22:30:40,153 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 630 条记录
+2026-01-12 22:30:40,156 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 630 条记录
+2026-01-12 22:30:40,156 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2026-01-12 22:30:40,156 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2026-01-12 22:30:40,156 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 1890
+2026-01-12 22:30:40,156 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 88.28 秒
+2026-01-22 19:15:38,088 - FeishuMultiTableSync - INFO - 🚀 飞书多表格数据同步器初始化完成
+2026-01-22 19:15:38,088 - FeishuMultiTableSync - INFO - 🎯 开始多表格数据同步任务...
+2026-01-22 19:15:38,088 - FeishuMultiTableSync - INFO - 🔑 获取飞书访问令牌...
+2026-01-22 19:15:38,291 - FeishuMultiTableSync - INFO - ✅ 访问令牌获取成功
+2026-01-22 19:15:38,296 - FeishuMultiTableSync - INFO - 📂 加载数据源...
+2026-01-22 19:15:38,552 - FeishuMultiTableSync - INFO - ✅ 成功加载 238 行数据
+2026-01-22 19:15:38,552 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到26.7表格
+2026-01-22 19:15:38,552 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2026-01-22 19:15:38,554 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2026-01-22 19:15:38,554 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2026-01-22 19:15:38,589 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 238 条有效记录
+2026-01-22 19:15:38,590 - FeishuMultiTableSync - INFO - 🚀 [更新到26.7表格] 开始批量插入，总计 238 条记录，分 5 批处理
+2026-01-22 19:15:41,751 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 1/5 成功插入 50 条记录
+2026-01-22 19:15:44,093 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 2/5 成功插入 50 条记录
+2026-01-22 19:15:46,670 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 3/5 成功插入 50 条记录
+2026-01-22 19:15:49,023 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 4/5 成功插入 50 条记录
+2026-01-22 19:15:51,375 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 批次 5/5 成功插入 38 条记录
+2026-01-22 19:15:51,375 - FeishuMultiTableSync - INFO - 🎉 [更新到26.7表格] 批量插入完成！总计成功插入 238 条记录
+2026-01-22 19:15:51,378 - FeishuMultiTableSync - INFO - ✅ [更新到26.7表格] 同步完成，插入 238 条记录
+2026-01-22 19:15:51,379 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1表格无投递和公告链接
+2026-01-22 19:15:51,379 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2026-01-22 19:15:51,379 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2026-01-22 19:15:51,379 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2026-01-22 19:15:51,427 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 238 条有效记录
+2026-01-22 19:15:51,428 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1表格无投递和公告链接] 开始批量插入，总计 238 条记录，分 5 批处理
+2026-01-22 19:15:54,466 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 1/5 成功插入 50 条记录
+2026-01-22 19:15:56,874 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 2/5 成功插入 50 条记录
+2026-01-22 19:15:59,263 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 3/5 成功插入 50 条记录
+2026-01-22 19:16:01,637 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 4/5 成功插入 50 条记录
+2026-01-22 19:16:04,063 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 批次 5/5 成功插入 38 条记录
+2026-01-22 19:16:04,064 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1表格无投递和公告链接] 批量插入完成！总计成功插入 238 条记录
+2026-01-22 19:16:04,066 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1表格无投递和公告链接] 同步完成，插入 238 条记录
+2026-01-22 19:16:04,067 - FeishuMultiTableSync - INFO - 📊 开始同步表格: 更新到 26.1 表格有链接的
+2026-01-22 19:16:04,067 - FeishuMultiTableSync - INFO - 🔍 验证字段映射配置...
+2026-01-22 19:16:04,067 - FeishuMultiTableSync - INFO - ✅ 字段映射配置验证完成
+2026-01-22 19:16:04,067 - FeishuMultiTableSync - INFO - 📝 准备记录数据...
+2026-01-22 19:16:04,120 - FeishuMultiTableSync - INFO - ✅ 记录准备完成: 238 条有效记录
+2026-01-22 19:16:04,120 - FeishuMultiTableSync - INFO - 🚀 [更新到 26.1 表格有链接的] 开始批量插入，总计 238 条记录，分 5 批处理
+2026-01-22 19:16:07,327 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 1/5 成功插入 50 条记录
+2026-01-22 19:16:09,826 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 2/5 成功插入 50 条记录
+2026-01-22 19:16:12,290 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 3/5 成功插入 50 条记录
+2026-01-22 19:16:14,732 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 4/5 成功插入 50 条记录
+2026-01-22 19:16:17,088 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 批次 5/5 成功插入 38 条记录
+2026-01-22 19:16:17,089 - FeishuMultiTableSync - INFO - 🎉 [更新到 26.1 表格有链接的] 批量插入完成！总计成功插入 238 条记录
+2026-01-22 19:16:17,091 - FeishuMultiTableSync - INFO - ✅ [更新到 26.1 表格有链接的] 同步完成，插入 238 条记录
+2026-01-22 19:16:17,091 - FeishuMultiTableSync - INFO - 🎉 多表格数据同步任务完成！
+2026-01-22 19:16:17,091 - FeishuMultiTableSync - INFO - 📊 成功表格数: 3/3
+2026-01-22 19:16:17,091 - FeishuMultiTableSync - INFO - ✅ 总插入记录数: 714
+2026-01-22 19:16:17,091 - FeishuMultiTableSync - INFO - ⏱️ 总耗时: 39.00 秒
